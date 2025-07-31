@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-91GVXTEZDQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-91GVXTEZDQ');
+    </script>
+    
+    <meta charset="utf-8">
+    <title>Analytical Testing Services | Motzz Laboratory</title>
+    <meta name="description" content="Comprehensive analytical testing services for agriculture, environmental, construction, and more. ISO/IEC 17025:2017 accredited laboratory.">
+    <meta name="keywords" content="analytical testing, laboratory services, soil analysis, water testing, environmental testing, agriculture testing">
+    <meta name="author" content="Motzz Laboratory">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="./assets/favicon/safari-pinned-tab.svg" color="#6366f1">
+    <link rel="shortcut icon" href="./assets/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#080032">
+    <meta name="msapplication-config" content="./assets/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" media="screen" href="./assets/vendor/boxicons/css/boxicons.min.css"/>
+    <link rel="stylesheet" media="screen" href="./assets/vendor/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" media="screen" href="./assets/css/theme.min.css">
+    <link rel="stylesheet" media="screen" href="./assets/css/site.css">
+    <link rel="stylesheet" media="screen" href="./assets/css/services.css">
+
+    <!-- Loading Styles -->
+    <style>
+        .page-loading {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            -webkit-transition: all .4s .2s ease-in-out;
+            transition: all .4s .2s ease-in-out;
+            background-color: #fff;
+            opacity: 0;
+            visibility: hidden;
+            z-index: 9999;
+        }
+        .dark-mode .page-loading {
+            background-color: #131022;
+        }
+        .page-loading.active {
+            opacity: 1;
+            visibility: visible;
+        }
+        .page-loading-inner {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+            -webkit-transition: opacity .2s ease-in-out;
+            transition: opacity .2s ease-in-out;
+            opacity: 0;
+        }
+        .page-loading.active > .page-loading-inner {
+            opacity: 1;
+        }
+        .page-loading-inner > span {
+            display: block;
+            font-size: 1rem;
+            font-weight: normal;
+            color: #9397ad;
+        }
+        .dark-mode .page-loading-inner > span {
+            color: #fff;
+            opacity: .6;
+        }
+        .page-spinner {
+            display: inline-block;
+            width: 2.75rem;
+            height: 2.75rem;
+            margin-bottom: .75rem;
+            vertical-align: text-bottom;
+            border: .15em solid #b4b7c9;
+            border-right-color: transparent;
+            border-radius: 50%;
+            -webkit-animation: spinner .75s linear infinite;
+            animation: spinner .75s linear infinite;
+        }
+        .dark-mode .page-spinner {
+            border-color: rgba(255,255,255,.4);
+            border-right-color: transparent;
+        }
+        @-webkit-keyframes spinner {
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+        @keyframes spinner {
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+
+    <!-- Theme Script -->
+    <script>
+        let mode = window.localStorage.getItem('mode'),
+            root = document.getElementsByTagName('html')[0];
+        if (mode !== undefined && mode === 'dark') {
+            root.classList.add('dark-mode');
+        } else {
+            root.classList.remove('dark-mode');
+        }
+    </script>
+
+    <!-- Preloader Script -->
+    <script>
+        (function () {
+            window.onload = function () {
+                const preloader = document.querySelector('.page-loading');
+                preloader.classList.remove('active');
+                setTimeout(function () {
+                    preloader.remove();
+                }, 1000);
+            };
+        })();
+    </script>
+</head>
+
+<body>
+    <!-- Header -->
+    <div id="header"></div>
+    
+    <!-- Page Loading -->
+    <div class="page-loading active">
+        <div class="page-loading-inner">
+            <div class="page-spinner"></div>
+            <span>Loading Services...</span>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="page-wrapper">
+        <!-- Hero Section -->
+        <section class="services-hero bg-white position-relative overflow-hidden py-5">
+            <div class="container pt-5 pb-4 position-relative">
+                <!-- Breadcrumb -->
+                <nav aria-label="breadcrumb" class="pt-4 mt-lg-3">
+                    <ol class="breadcrumb mb-4">
+                        <li class="breadcrumb-item">
+                            <a href="./index.html" class="text-primary text-decoration-none">
+                                <i class="bx bx-home-alt fs-lg me-1"></i>Home
+                            </a>
+                        </li>
+                        <li class="breadcrumb-item active text-muted" aria-current="page">Services</li>
+                    </ol>
+                </nav>
+
+                <!-- Hero Content -->
+                <div class="row align-items-center">
+                    <div class="col-lg-7">
+                        <div class="text-dark">
+                            <div class="mb-3">
+                                <span class="badge bg-primary text-white px-3 py-2 rounded-pill">
+                                    <i class="bx bx-certification me-2"></i>ISO/IEC 17025:2017 Accredited
+                                </span>
+                            </div>
+                            <h1 class="display-3 fw-bold mb-4 text-dark">
+                                Comprehensive <span class="text-primary">Analytical Testing</span> Services
+                            </h1>
+                            <p class="lead mb-4 text-muted fs-5 lh-lg">
+                                Professional testing solutions for agriculture, environmental, construction, and specialized industries. 
+                                Trusted by businesses for accurate, reliable results with fast turnaround times.
+                            </p>
+                            
+                            <!-- Enhanced Search Bar -->
+                            <div class="position-relative mb-4">
+                                <div class="search-container">
+                                    <input type="text" id="serviceSearch" class="form-control form-control-lg pe-5 border-0 shadow-lg" 
+                                           placeholder="Search by service, test type, or industry..." 
+                                           aria-label="Search services">
+                                    <button class="search-btn position-absolute top-50 end-0 translate-middle-y me-2 btn btn-primary btn-sm rounded-pill">
+                                        <i class="bx bx-search"></i>
+                                    </button>
+                                </div>
+                                <!-- Search Suggestions -->
+                                <div id="searchSuggestions" class="search-suggestions position-absolute w-100 bg-white rounded-3 shadow-lg mt-1 d-none">
+                                    <div class="p-3">
+                                        <small class="text-muted fw-bold">Popular Searches:</small>
+                                        <div class="mt-2">
+                                            <span class="badge bg-light text-dark me-2 mb-1 suggestion-tag">Soil Analysis</span>
+                                            <span class="badge bg-light text-dark me-2 mb-1 suggestion-tag">Water Testing</span>
+                                            <span class="badge bg-light text-dark me-2 mb-1 suggestion-tag">Heavy Metals</span>
+                                            <span class="badge bg-light text-dark me-2 mb-1 suggestion-tag">Microbiology</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Enhanced Quick Stats -->
+                            <div class="stats-container bg-light border rounded-4 p-4 mb-4">
+                                <div class="row g-4 text-center">
+                                    <div class="col-4">
+                                        <div class="stat-item">
+                                            <div class="h2 text-primary mb-1 fw-bold counter" data-target="50">0</div>
+                                            <small class="text-muted fw-medium">Test Types</small>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="stat-item">
+                                            <div class="h2 text-primary mb-1 fw-bold counter" data-target="9">0</div>
+                                            <small class="text-muted fw-medium">Industries Served</small>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="stat-item">
+                                            <div class="h2 text-primary mb-1 fw-bold">
+                                                <span class="counter" data-target="24">0</span><span class="fs-6">/7</span>
+                                            </div>
+                                            <small class="text-muted fw-medium">Support Available</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Quick Action Buttons -->
+                            <div class="d-flex flex-wrap gap-3">
+                                <a href="#servicesContainer" class="btn btn-primary btn-lg px-4 py-3 rounded-pill">
+                                    <i class="bx bx-search-alt me-2"></i>Browse All Services
+                                </a>
+                                <a href="tel:602-454-2376" class="btn btn-outline-primary btn-lg px-4 py-3 rounded-pill">
+                                    <i class="bx bx-phone me-2"></i>Get Expert Help
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="hero-image-container position-relative">
+                            <div class="hero-image-wrapper">
+                                <img src="./assets/img/services/innovation.jpg" alt="Professional Laboratory Testing Services" 
+                                     class="img-fluid rounded-4 shadow-lg hero-image">
+                            </div>
+                            <!-- Floating badges -->
+                            <div class="floating-badge floating-badge-1">
+                                <i class="bx bx-check-circle text-success"></i>
+                                <span class="ms-2">Accurate</span>
+                            </div>
+                            <div class="floating-badge floating-badge-2">
+                                <i class="bx bx-time text-info"></i>
+                                <span class="ms-2">Fast</span>
+                            </div>
+                            <div class="floating-badge floating-badge-3">
+                                <i class="bx bx-shield-check text-warning"></i>
+                                <span class="ms-2">Certified</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Filter Section -->
+        <section class="py-4 bg-light border-bottom sticky-top" id="filterSection">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-8">
+                        <!-- Category Filters -->
+                        <div class="btn-group flex-wrap" role="group" aria-label="Service categories">
+                            <input type="radio" class="btn-check" name="categoryFilter" id="all" value="all" checked>
+                            <label class="btn btn-outline-primary" for="all">All Services</label>
+                            
+                            <input type="radio" class="btn-check" name="categoryFilter" id="agriculture" value="agriculture">
+                            <label class="btn btn-outline-primary" for="agriculture">Agriculture</label>
+                            
+                            <input type="radio" class="btn-check" name="categoryFilter" id="environmental" value="environmental">
+                            <label class="btn btn-outline-primary" for="environmental">Environmental</label>
+                            
+                            <input type="radio" class="btn-check" name="categoryFilter" id="construction" value="construction">
+                            <label class="btn btn-outline-primary" for="construction">Construction</label>
+                            
+                            <input type="radio" class="btn-check" name="categoryFilter" id="dietary" value="dietary">
+                            <label class="btn btn-outline-primary" for="dietary">Dietary</label>
+                            
+                            <input type="radio" class="btn-check" name="categoryFilter" id="microbiology" value="microbiology">
+                            <label class="btn btn-outline-primary" for="microbiology">Microbiology</label>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 text-lg-end mt-3 mt-lg-0">
+                        <!-- Sort Options -->
+                        <select class="form-select form-select-sm d-inline-block w-auto" id="sortOptions">
+                            <option value="popular">Most Popular</option>
+                            <option value="alphabetical">A-Z</option>
+                            <option value="turnaround">Fastest Turnaround</option>
+                        </select>
+                        
+                        <!-- View Toggle -->
+                        <div class="btn-group ms-2" role="group">
+                            <input type="radio" class="btn-check" name="viewMode" id="gridView" value="grid" checked>
+                            <label class="btn btn-outline-secondary btn-sm" for="gridView"><i class="bx bx-grid-alt"></i></label>
+                            
+                            <input type="radio" class="btn-check" name="viewMode" id="listView" value="list">
+                            <label class="btn btn-outline-secondary btn-sm" for="listView"><i class="bx bx-list-ul"></i></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Grid -->
+        <section class="py-5">
+            <div class="container">
+                <!-- Loading State -->
+                <div id="servicesLoading" class="text-center py-5" style="display: none;">
+                    <div class="spinner-border text-primary" role="status">
+                        <span class="visually-hidden">Loading services...</span>
+                    </div>
+                    <p class="mt-3 text-muted">Loading services...</p>
+                </div>
+
+                <!-- Category Description -->
+                <div id="categoryDescription" class="mb-5" style="display: none;">
+                    <div class="text-center mb-4">
+                        <h2 id="categoryTitle" class="display-5 fw-bold text-dark mb-3"></h2>
+                        <p id="categorySubtitle" class="lead text-primary fs-4 mb-3"></p>
+                        <p id="categoryDescriptionText" class="text-muted fs-5 lh-lg mx-auto" style="max-width: 800px;"></p>
+                    </div>
+                </div>
+
+                <!-- Services Container -->
+                <div id="servicesContainer" class="row g-4">
+                    <!-- Services will be dynamically loaded here -->
+                </div>
+
+                <!-- No Results -->
+                <div id="noResults" class="text-center py-5" style="display: none;">
+                    <i class="bx bx-search-alt-2 display-1 text-muted mb-3"></i>
+                    <h3>No services found</h3>
+                    <p class="text-muted">Try adjusting your search or filter criteria</p>
+                    <button class="btn btn-primary" onclick="clearFilters()">Clear Filters</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="bg-white py-5 border-top">
+            <div class="container text-center">
+                <h2 class="mb-4 text-dark">Need Help Choosing the Right Test?</h2>
+                <p class="lead mb-4 text-muted">Our laboratory experts are here to help you select the most appropriate testing services for your needs.</p>
+                <div class="row justify-content-center">
+                    <div class="col-md-4 mb-3">
+                        <a href="tel:602-454-2376" class="btn btn-primary btn-lg w-100">
+                            <i class="bx bx-phone me-2"></i>Call Us
+                        </a>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <a href="mailto:info@motzz.com" class="btn btn-outline-primary btn-lg w-100">
+                            <i class="bx bx-envelope me-2"></i>Email Us
+                        </a>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <a href="./forms.html" class="btn btn-outline-primary btn-lg w-100">
+                            <i class="bx bx-download me-2"></i>Sample Forms
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <div id="footer"></div>
+
+    <!-- Scroll to Top -->
+    <a href="#top" class="btn-scroll-top" data-scroll>
+        <span class="btn-scroll-top-tooltip text-muted fs-sm me-2">Top</span>
+        <i class="btn-scroll-top-icon bx bx-chevron-up"></i>
+    </a>
+
+    <!-- Service Detail Modal -->
+    <div class="modal fade" id="serviceDetailModal" tabindex="-1" aria-labelledby="serviceDetailModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="serviceDetailModalLabel">Service Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="serviceDetailContent">
+                    <!-- Dynamic content will be loaded here -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <a href="./contact-us/index.html" class="btn btn-primary" id="requestQuoteBtn">Request Quote</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="./assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="./assets/vendor/rellax/rellax.min.js"></script>
+    <script src="./assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="./assets/js/theme.min.js"></script>
+    <script src="./assets/js/include-nav.js"></script>
+    <script src="./assets/js/navigation-fix.js"></script>
+    <script src="./assets/js/services-data.js"></script>
+    <script src="./assets/js/services-app.js"></script>
+</body>
+</html>

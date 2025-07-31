@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Navigation Test</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div id="header"></div>
+    
+    <div class="container mt-5">
+        <h1>Nested Navigation Test</h1>
+        <p>This page tests navigation loading from a deeply nested directory.</p>
+        
+        <div class="alert alert-info">
+            <strong>Current Path:</strong> /services/agriculture/navigation-test.html<br>
+            <strong>Expected Base Path:</strong> ../../<br>
+            <strong>Header Should Load From:</strong> ../../header.html
+        </div>
+        
+        <div class="mt-4">
+            <h3>Navigation Status:</h3>
+            <div id="nav-status" class="alert alert-warning">
+                Checking navigation...
+            </div>
+        </div>
+        
+        <div class="mt-4">
+            <a href="../../index.html" class="btn btn-primary">Back to Home</a>
+            <a href="../analytical-testing-agriculture.html" class="btn btn-secondary">Back to Agriculture Services</a>
+        </div>
+    </div>
+    
+    <div id="footer"></div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../../assets/js/include-nav.js"></script>
+    <script src="../../assets/js/navigation-fix.js"></script>
+    
+    <script>
+        // Check if navigation loaded successfully
+        setTimeout(function() {
+            const header = document.getElementById('header');
+            const statusDiv = document.getElementById('nav-status');
+            
+            if (header && header.innerHTML.trim() !== '') {
+                statusDiv.className = 'alert alert-success';
+                statusDiv.innerHTML = '✅ Navigation loaded successfully!';
+            } else {
+                statusDiv.className = 'alert alert-danger';
+                statusDiv.innerHTML = '❌ Navigation failed to load. Check console for errors.';
+            }
+        }, 2000);
+    </script>
+</body>
+</html>

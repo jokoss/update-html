@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-91GVXTEZDQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-91GVXTEZDQ');
+    </script>
+
+      <meta charset="utf-8">
+      <title>Contact Us & Request Quote | Motzz Laboratory</title>
+  
+      <!-- SEO Meta Tags-->
+      <meta name="description" content="Contact Motzz Laboratory for analytical testing services. Request a quote for agriculture, environmental, construction, and specialized testing services.">
+      <meta name="keywords" content="contact, quote, analytical testing, laboratory, agriculture, environmental, construction">
+      <meta name="author" content="Motzz Laboratory">
+
+      <!-- Viewport-->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!-- Favicon and Touch Icons -->
+      <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png">
+      <link rel="manifest" href="../assets/favicon/site.webmanifest">
+      <link rel="mask-icon" href="../assets/favicon/safari-pinned-tab.svg" color="#6366f1">
+      <link rel="shortcut icon" href="../assets/favicon/favicon.ico">
+      <meta name="msapplication-TileColor" content="#080032">
+      <meta name="msapplication-config" content="../assets/favicon/browserconfig.xml">
+      <meta name="theme-color" content="#ffffff">
+
+      <!-- Vendor Styles-->
+      <link rel="stylesheet" media="screen" href="../assets/vendor/boxicons/css/boxicons.min.css"/>
+      <link rel="stylesheet" media="screen" href="../assets/vendor/swiper/swiper-bundle.min.css"/>
+
+      <!-- Main Theme Styles + Bootstrap-->
+      <link rel="stylesheet" media="screen" href="../assets/css/theme.min.css">
+
+      <!-- Site Styles -->
+      <link rel="stylesheet" media="screen" href="../assets/css/site.css">
+
+      <!-- Page loading styles -->
+      <style>
+          .page-loading {
+          position: fixed;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          -webkit-transition: all .4s .2s ease-in-out;
+          transition: all .4s .2s ease-in-out;
+          background-color: #fff;
+          opacity: 0;
+          visibility: hidden;
+          z-index: 9999;
+          }
+          .dark-mode .page-loading {
+          background-color: #131022;
+          }
+          .page-loading.active {
+          opacity: 1;
+          visibility: visible;
+          }
+          .page-loading-inner {
+          position: absolute;
+          top: 50%;
+          left: 0;
+          width: 100%;
+          text-align: center;
+          -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+          -webkit-transition: opacity .2s ease-in-out;
+          transition: opacity .2s ease-in-out;
+          opacity: 0;
+          }
+          .page-loading.active > .page-loading-inner {
+          opacity: 1;
+          }
+          .page-loading-inner > span {
+          display: block;
+          font-size: 1rem;
+          font-weight: normal;
+          color: #9397ad;
+          }
+          .dark-mode .page-loading-inner > span {
+          color: #fff;
+          opacity: .6;
+          }
+          .page-spinner {
+          display: inline-block;
+          width: 2.75rem;
+          height: 2.75rem;
+          margin-bottom: .75rem;
+          vertical-align: text-bottom;
+          border: .15em solid #b4b7c9;
+          border-right-color: transparent;
+          border-radius: 50%;
+          -webkit-animation: spinner .75s linear infinite;
+          animation: spinner .75s linear infinite;
+          }
+          .dark-mode .page-spinner {
+          border-color: rgba(255,255,255,.4);
+          border-right-color: transparent;
+          }
+          @-webkit-keyframes spinner {
+          100% {
+              -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+          }
+          }
+          @keyframes spinner {
+          100% {
+              -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+          }
+          }
+
+          /* Contact Page Specific Styles */
+          .contact-hero {
+            background: linear-gradient(135deg, rgb(74, 103, 65) 0%, rgb(94, 131, 83) 50%, rgb(114, 159, 101) 100%);
+            color: white;
+            padding: 4rem 0;
+          }
+          
+          .quote-form {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            margin-top: -3rem;
+            position: relative;
+            z-index: 10;
+          }
+          
+          .form-floating > .form-control:focus ~ label,
+          .form-floating > .form-control:not(:placeholder-shown) ~ label {
+            color: rgb(74, 103, 65);
+          }
+          
+          .form-floating > .form-control:focus {
+            border-color: rgb(74, 103, 65);
+            box-shadow: 0 0 0 0.2rem rgba(74, 103, 65, 0.25);
+          }
+          
+          .contact-info-card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+            padding: 2rem;
+            height: 100%;
+            transition: transform 0.3s ease;
+          }
+          
+          .contact-info-card:hover {
+            transform: translateY(-5px);
+          }
+          
+          .contact-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, rgb(74, 103, 65) 0%, rgb(94, 131, 83) 50%, rgb(114, 159, 101) 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+          }
+          
+          .contact-icon i {
+            font-size: 1.5rem;
+            color: white;
+          }
+          
+          .service-checkbox {
+            margin-bottom: 0.5rem;
+          }
+          
+          .service-checkbox input[type="checkbox"] {
+            margin-right: 0.5rem;
+          }
+          
+          .urgency-radio {
+            margin-bottom: 0.5rem;
+          }
+          
+          .urgency-radio input[type="radio"] {
+            margin-right: 0.5rem;
+          }
+          
+          .file-upload-area {
+            border: 2px dashed #dee2e6;
+            border-radius: 10px;
+            padding: 2rem;
+            text-align: center;
+            transition: all 0.3s ease;
+            cursor: pointer;
+          }
+          
+          .file-upload-area:hover {
+            border-color: rgb(74, 103, 65);
+            background-color: rgba(74, 103, 65, 0.05);
+          }
+          
+          .file-upload-area.dragover {
+            border-color: rgb(74, 103, 65);
+            background-color: rgba(74, 103, 65, 0.1);
+          }
+          
+          .success-message {
+            display: none;
+            background: #d4edda;
+            color: #155724;
+            padding: 1rem;
+            border-radius: 10px;
+            border: 1px solid #c3e6cb;
+            margin-bottom: 1rem;
+          }
+          
+          .error-message {
+            display: none;
+            background: #f8d7da;
+            color: #721c24;
+            padding: 1rem;
+            border-radius: 10px;
+            border: 1px solid #f5c6cb;
+            margin-bottom: 1rem;
+          }
+      </style>
+
+      <!-- Theme mode -->
+      <script>
+          let mode = window.localStorage.getItem('mode'),
+              root = document.getElementsByTagName('html')[0];
+          if (mode !== undefined && mode === 'dark') {
+          root.classList.add('dark-mode');
+          } else {
+          root.classList.remove('dark-mode');
+          }
+      </script>
+  
+      <!-- Page loading scripts -->
+      <script>
+          (function () {
+          window.onload = function () {
+              const preloader = document.querySelector('.page-loading');
+              preloader.classList.remove('active');
+              setTimeout(function () {
+              preloader.remove();
+              }, 1000);
+          };
+          })();
+      </script>
+
+  </head>
+  <body>
+
+    <div id="header"></div>
+    <!-- Page loading spinner -->
+    <div class="page-loading active">
+        <div class="page-loading-inner">
+        <div class="page-spinner"></div><span>Loading...</span>
+        </div>
+    </div>
+
+    <!-- Page wrapper for sticky footer -->
+    <main class="page-wrapper">
+
+      <!-- Hero Section -->
+      <section class="contact-hero">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <h1 class="display-4 fw-bold mb-4">Contact Us & Request a Quote</h1>
+              <p class="lead mb-4">Get accurate, reliable testing results from Arizona's trusted analytical laboratory. We're here to help with all your testing needs.</p>
+              <div class="d-flex flex-wrap gap-3">
+                <a href="tel:6024542376" class="btn btn-light btn-lg">
+                  <i class="bx bx-phone me-2"></i> Call Now
+                </a>
+                <a href="mailto:motzz@motzzlaboratory.com" class="btn btn-outline-light btn-lg">
+                  <i class="bx bx-envelope me-2"></i> Email Us
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="text-center">
+                <i class="bx bx-test-tube" style="font-size: 8rem; opacity: 0.3;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Quote Request Form -->
+      <section class="py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="quote-form">
+                <div class="text-center mb-4">
+                  <h2 class="h3 fw-bold">Request Your Quote</h2>
+                  <p class="text-muted">Fill out the form below and we'll get back to you within 24 hours</p>
+                </div>
+
+                <div id="successMessage" class="success-message">
+                  <i class="bx bx-check-circle me-2"></i>
+                  Thank you! Your quote request has been submitted successfully. We'll contact you within 24 hours.
+                </div>
+
+                <div id="errorMessage" class="error-message">
+                  <i class="bx bx-error-circle me-2"></i>
+                  Please fill in all required fields before submitting.
+                </div>
+
+                <form id="quoteForm" novalidate>
+                  <!-- Contact Information -->
+                  <div class="row mb-4">
+                    <div class="col-12">
+                      <h5 class="fw-bold mb-3">Contact Information</h5>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <div class="form-floating">
+                        <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" required>
+                        <label for="firstName">First Name *</label>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <div class="form-floating">
+                        <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" required>
+                        <label for="lastName">Last Name *</label>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <div class="form-floating">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+                        <label for="email">Email Address *</label>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <div class="form-floating">
+                        <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone" required>
+                        <label for="phone">Phone Number *</label>
+                      </div>
+                    </div>
+                    <div class="col-12 mb-3">
+                      <div class="form-floating">
+                        <input type="text" class="form-control" id="company" name="company" placeholder="Company">
+                        <label for="company">Company/Organization</label>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Service Selection -->
+                  <div class="row mb-4">
+                    <div class="col-12">
+                      <h5 class="fw-bold mb-3">Services Needed</h5>
+                      <p class="text-muted mb-3">Select all services you're interested in:</p>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="service-checkbox">
+                        <input type="checkbox" id="agriculture" name="services[]" value="Agriculture">
+                        <label for="agriculture">Agriculture Testing</label>
+                      </div>
+                      <div class="service-checkbox">
+                        <input type="checkbox" id="environmental" name="services[]" value="Environmental">
+                        <label for="environmental">Environmental Testing</label>
+                      </div>
+                      <div class="service-checkbox">
+                        <input type="checkbox" id="construction" name="services[]" value="Construction">
+                        <label for="construction">Construction Materials</label>
+                      </div>
+                      <div class="service-checkbox">
+                        <input type="checkbox" id="microbiology" name="services[]" value="Microbiology">
+                        <label for="microbiology">Microbiology</label>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="service-checkbox">
+                        <input type="checkbox" id="dietary" name="services[]" value="Dietary Supplements">
+                        <label for="dietary">Dietary Supplements</label>
+                      </div>
+                      <div class="service-checkbox">
+                        <input type="checkbox" id="fertilizer" name="services[]" value="Fertilizer">
+                        <label for="fertilizer">Fertilizer Analysis</label>
+                      </div>
+                      <div class="service-checkbox">
+                        <input type="checkbox" id="research" name="services[]" value="Research & Development">
+                        <label for="research">Research & Development</label>
+                      </div>
+                      <div class="service-checkbox">
+                        <input type="checkbox" id="other" name="services[]" value="Other">
+                        <label for="other">Other (specify in notes)</label>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Sample Information -->
+                  <div class="row mb-4">
+                    <div class="col-12">
+                      <h5 class="fw-bold mb-3">Sample Information</h5>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <div class="form-floating">
+                        <select class="form-select" id="sampleType" name="sampleType" required>
+                          <option value="">Select Sample Type</option>
+                          <option value="Soil">Soil</option>
+                          <option value="Water">Water</option>
+                          <option value="Plant Tissue">Plant Tissue</option>
+                          <option value="Fertilizer">Fertilizer</option>
+                          <option value="Compost">Compost</option>
+                          <option value="Construction Material">Construction Material</option>
+                          <option value="Food/Supplement">Food/Supplement</option>
+                          <option value="Other">Other</option>
+                        </select>
+                        <label for="sampleType">Sample Type *</label>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <div class="form-floating">
+                        <input type="number" class="form-control" id="sampleQuantity" name="sampleQuantity" placeholder="Number of Samples" min="1" required>
+                        <label for="sampleQuantity">Number of Samples *</label>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Urgency -->
+                  <div class="row mb-4">
+                    <div class="col-12">
+                      <h5 class="fw-bold mb-3">Urgency Level</h5>
+                    </div>
+                    <div class="col-12">
+                      <div class="urgency-radio">
+                        <input type="radio" id="standard" name="urgency" value="Standard (5-7 days)" checked>
+                        <label for="standard">Standard Turnaround (5-7 business days)</label>
+                      </div>
+                      <div class="urgency-radio">
+                        <input type="radio" id="rush" name="urgency" value="Rush (2-3 days)">
+                        <label for="rush">Rush Service (2-3 business days) - Additional fees apply</label>
+                      </div>
+                      <div class="urgency-radio">
+                        <input type="radio" id="emergency" name="urgency" value="Emergency (24-48 hours)">
+                        <label for="emergency">Emergency Service (24-48 hours) - Premium fees apply</label>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Additional Information -->
+                  <div class="row mb-4">
+                    <div class="col-12">
+                      <h5 class="fw-bold mb-3">Additional Information</h5>
+                    </div>
+                    <div class="col-12 mb-3">
+                      <div class="form-floating">
+                        <textarea class="form-control" id="notes" name="notes" placeholder="Additional Notes" style="height: 120px;"></textarea>
+                        <label for="notes">Special Requirements, Testing Parameters, or Additional Notes</label>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- File Upload -->
+                  <div class="row mb-4">
+                    <div class="col-12">
+                      <h5 class="fw-bold mb-3">Attachments (Optional)</h5>
+                      <div class="file-upload-area" id="fileUploadArea">
+                        <i class="bx bx-cloud-upload" style="font-size: 3rem; color: #6c757d; margin-bottom: 1rem;"></i>
+                        <p class="mb-2"><strong>Click to upload</strong> or drag and drop files here</p>
+                        <p class="text-muted small">Sample photos, specifications, or other relevant documents (Max 10MB per file)</p>
+                        <input type="file" id="fileInput" name="attachments[]" multiple accept=".pdf,.doc,.docx,.jpg,.jpeg,.png,.gif" style="display: none;">
+                      </div>
+                      <div id="fileList" class="mt-2"></div>
+                    </div>
+                  </div>
+
+                  <!-- Submit Button -->
+                  <div class="row">
+                    <div class="col-12 text-center">
+                      <button type="submit" class="btn btn-primary btn-lg px-5">
+                        <i class="bx bx-send me-2"></i> Submit Quote Request
+                      </button>
+                      <p class="text-muted mt-2 small">We'll respond within 24 hours with your customized quote</p>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Information Cards -->
+      <section class="py-5 bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center mb-5">
+              <h2 class="fw-bold">Get In Touch</h2>
+              <p class="text-muted">Multiple ways to reach our team</p>
+            </div>
+          </div>
+          <div class="row g-4">
+            <!-- Phone -->
+            <div class="col-lg-3 col-md-6">
+              <div class="contact-info-card text-center">
+                <div class="contact-icon mx-auto">
+                  <i class="bx bx-phone"></i>
+                </div>
+                <h5 class="fw-bold mb-2">Phone</h5>
+                <p class="text-muted mb-3">Call us during business hours</p>
+                <a href="tel:6024542376" class="btn btn-outline-primary">602-454-2376</a>
+              </div>
+            </div>
+            
+            <!-- Email -->
+            <div class="col-lg-3 col-md-6">
+              <div class="contact-info-card text-center">
+                <div class="contact-icon mx-auto">
+                  <i class="bx bx-envelope"></i>
+                </div>
+                <h5 class="fw-bold mb-2">Email</h5>
+                <p class="text-muted mb-3">Send us a message anytime</p>
+                <a href="mailto:motzz@motzzlaboratory.com" class="btn btn-outline-primary">Send Email</a>
+              </div>
+            </div>
+            
+            <!-- Location -->
+            <div class="col-lg-3 col-md-6">
+              <div class="contact-info-card text-center">
+                <div class="contact-icon mx-auto">
+                  <i class="bx bx-map"></i>
+                </div>
+                <h5 class="fw-bold mb-2">Location</h5>
+                <p class="text-muted mb-3">3540 E Corona Ave<br>Phoenix, AZ 85040</p>
+                <a href="https://goo.gl/maps/YJFwDukFv6m3B5wP8" target="_blank" class="btn btn-outline-primary">View Map</a>
+              </div>
+            </div>
+            
+            <!-- Hours -->
+            <div class="col-lg-3 col-md-6">
+              <div class="contact-info-card text-center">
+                <div class="contact-icon mx-auto">
+                  <i class="bx bx-time"></i>
+                </div>
+                <h5 class="fw-bold mb-2">Business Hours</h5>
+                <p class="text-muted mb-3">Monday - Friday<br>8:30 AM - 4:30 PM</p>
+                <span class="badge bg-success">Open Now</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Footer -->
+    <div id="footer"></div>
+
+    <!-- Back to top button -->
+    <a href="#top" class="btn-scroll-top" data-scroll>
+      <span class="btn-scroll-top-tooltip text-muted fs-sm me-2">Top</span>
+      <i class="btn-scroll-top-icon bx bx-chevron-up"></i>
+    </a>
+  
+    <script src="../assets/js/include-nav.js"></script>
+    <!-- Vendor Scripts -->
+    <script src="../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+    <!-- Main Theme Script -->
+    <script src="../assets/js/theme.min.js"></script>
+
+    <!-- Contact Form Script -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const form = document.getElementById('quoteForm');
+        const fileUploadArea = document.getElementById('fileUploadArea');
+        const fileInput = document.getElementById('fileInput');
+        const fileList = document.getElementById('fileList');
+        const successMessage = document.getElementById('successMessage');
+        const errorMessage = document.getElementById('errorMessage');
+        
+        // File upload functionality
+        fileUploadArea.addEventListener('click', () => fileInput.click());
+        
+        fileUploadArea.addEventListener('dragover', (e) => {
+          e.preventDefault();
+          fileUploadArea.classList.add('dragover');
+        });
+        
+        fileUploadArea.addEventListener('dragleave', () => {
+          fileUploadArea.classList.remove('dragover');
+        });
+        
+        fileUploadArea.addEventListener('drop', (e) => {
+          e.preventDefault();
+          fileUploadArea.classList.remove('dragover');
+          const files = e.dataTransfer.files;
+          handleFiles(files);
+        });
+        
+        fileInput.addEventListener('change', (e) => {
+          handleFiles(e.target.files);
+        });
+        
+        function handleFiles(files) {
+          fileList.innerHTML = '';
+          Array.from(files).forEach(file => {
+            const fileItem = document.createElement('div');
+            fileItem.className = 'alert alert-info d-flex justify-content-between align-items-center';
+            fileItem.innerHTML = `
+              <span><i class="bx bx-file me-2"></i>${file.name} (${(file.size / 1024 / 1024).toFixed(2)} MB)</span>
+              <button type="button" class="btn-close" onclick="this.parentElement.remove()"></button>
+            `;
+            fileList.appendChild(fileItem);
+          });
+        }
+        
+        // Form submission
+        form.addEventListener('submit', function(e) {
+          e.preventDefault();
+          
+          // Hide previous messages
+          successMessage.style.display = 'none';
+          errorMessage.style.display = 'none';
+          
+          // Basic validation
+          const requiredFields = form.querySelectorAll('[required]');
+          let isValid = true;
+          
+          requiredFields.forEach(field => {
+            if (!field.value.trim()) {
+              isValid = false;
+              field.classList.add('is-invalid');
+            } else {
+              field.classList.remove('is-invalid');
+            }
+          });
+          
+          // Check if at least one service is selected
+          const serviceCheckboxes = form.querySelectorAll('input[name="services[]"]:checked');
+          if (serviceCheckboxes.length === 0) {
+            isValid = false;
+          }
+          
+          if (!isValid) {
+            errorMessage.style.display = 'block';
+            errorMessage.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            return;
+          }
+          
+          // Simulate form submission (in real implementation, this would send to server)
+          const submitBtn = form.querySelector('button[type="submit"]');
+          const originalText = submitBtn.innerHTML;
+          submitBtn.innerHTML = '<i class="bx bx-loader-alt bx-spin me-2"></i> Submitting...';
+          submitBtn.disabled = true;
+          
+          setTimeout(() => {
+            successMessage.style.display = 'block';
+            successMessage.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            form.reset();
+            fileList.innerHTML = '';
+            submitBtn.innerHTML = originalText;
+            submitBtn.disabled = false;
+          }, 2000);
+        });
+        
+        // Update business hours status
+        function updateBusinessHours() {
+          const now = new Date();
+          const day = now.getDay(); // 0 = Sunday, 1 = Monday, etc.
+          const hour = now.getHours();
+          const isBusinessDay = day >= 1 && day <= 5; // Monday to Friday
+          const isBusinessHour = hour >= 8 && hour < 17; // 8 AM to 5 PM
+          
+          const statusBadge = document.querySelector('.badge');
+          if (isBusinessDay && isBusinessHour) {
+            statusBadge.className = 'badge bg-success';
+            statusBadge.textContent = 'Open Now';
+          } else {
+            statusBadge.className = 'badge bg-secondary';
+            statusBadge.textContent = 'Closed';
+          }
+        }
+        
+        updateBusinessHours();
+      });
+    </script>
+
+    <script src="../assets/js/navigation-fix.js"></script>
+</body>
+</html>
