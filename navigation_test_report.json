@@ -1,0 +1,374 @@
+{
+  "timestamp": "2025-07-30T19:50:34.321173",
+  "summary": {
+    "total_links": 20,
+    "working": 20,
+    "broken": 0,
+    "success_rate": 100.0
+  },
+  "working_links": [
+    {
+      "path": "/about-us.html",
+      "url": "http://localhost:8002/about-us.html",
+      "description": "About Us Page",
+      "status_code": 200,
+      "success": true,
+      "content_length": 15806,
+      "error": null
+    },
+    {
+      "path": "/license-accreditations.html",
+      "url": "http://localhost:8002/license-accreditations.html",
+      "description": "Accreditations Page",
+      "status_code": 200,
+      "success": true,
+      "content_length": 15806,
+      "error": null
+    },
+    {
+      "path": "/professional-membership.html",
+      "url": "http://localhost:8002/professional-membership.html",
+      "description": "Membership Page",
+      "status_code": 200,
+      "success": true,
+      "content_length": 15806,
+      "error": null
+    },
+    {
+      "path": "/analytical-testing.html",
+      "url": "http://localhost:8002/analytical-testing.html",
+      "description": "All Services Page",
+      "status_code": 200,
+      "success": true,
+      "content_length": 12900,
+      "error": null
+    },
+    {
+      "path": "/services/analytical-testing-agriculture.html",
+      "url": "http://localhost:8002/services/analytical-testing-agriculture.html",
+      "description": "Agriculture Service",
+      "status_code": 200,
+      "success": true,
+      "content_length": 11380,
+      "error": null
+    },
+    {
+      "path": "/services/analytical-testing-microbiology.html",
+      "url": "http://localhost:8002/services/analytical-testing-microbiology.html",
+      "description": "Microbiology Service",
+      "status_code": 200,
+      "success": true,
+      "content_length": 13392,
+      "error": null
+    },
+    {
+      "path": "/services/analytical-testing-environmental.html",
+      "url": "http://localhost:8002/services/analytical-testing-environmental.html",
+      "description": "Environmental Service",
+      "status_code": 200,
+      "success": true,
+      "content_length": 10894,
+      "error": null
+    },
+    {
+      "path": "/services/analytical-testing-construction-materials.html",
+      "url": "http://localhost:8002/services/analytical-testing-construction-materials.html",
+      "description": "Construction Materials Service",
+      "status_code": 200,
+      "success": true,
+      "content_length": 12243,
+      "error": null
+    },
+    {
+      "path": "/services/analytical-testing-dietary-supplements.html",
+      "url": "http://localhost:8002/services/analytical-testing-dietary-supplements.html",
+      "description": "Dietary Supplements Service",
+      "status_code": 200,
+      "success": true,
+      "content_length": 8331,
+      "error": null
+    },
+    {
+      "path": "/services/analytical-testing-research-development.html",
+      "url": "http://localhost:8002/services/analytical-testing-research-development.html",
+      "description": "Research & Development Service",
+      "status_code": 200,
+      "success": true,
+      "content_length": 8989,
+      "error": null
+    },
+    {
+      "path": "/services/agriculture/plant-tissue-petiole.html",
+      "url": "http://localhost:8002/services/agriculture/plant-tissue-petiole.html",
+      "description": "Plant/Tissue/Petiole Service",
+      "status_code": 200,
+      "success": true,
+      "content_length": 15251,
+      "error": null
+    },
+    {
+      "path": "/services/agriculture/soil.html",
+      "url": "http://localhost:8002/services/agriculture/soil.html",
+      "description": "Soil Service",
+      "status_code": 200,
+      "success": true,
+      "content_length": 10026,
+      "error": null
+    },
+    {
+      "path": "/services/agriculture/water.html",
+      "url": "http://localhost:8002/services/agriculture/water.html",
+      "description": "Water Service",
+      "status_code": 200,
+      "success": true,
+      "content_length": 8949,
+      "error": null
+    },
+    {
+      "path": "/services/agriculture/compost.html",
+      "url": "http://localhost:8002/services/agriculture/compost.html",
+      "description": "Compost Service",
+      "status_code": 200,
+      "success": true,
+      "content_length": 12698,
+      "error": null
+    },
+    {
+      "path": "/services/agriculture/fertilizer.html",
+      "url": "http://localhost:8002/services/agriculture/fertilizer.html",
+      "description": "Fertilizer Service",
+      "status_code": 200,
+      "success": true,
+      "content_length": 6564,
+      "error": null
+    },
+    {
+      "path": "/sampling-info/plant-tissue.html",
+      "url": "http://localhost:8002/sampling-info/plant-tissue.html",
+      "description": "Plant/Tissue Sampling Info",
+      "status_code": 200,
+      "success": true,
+      "content_length": 15820,
+      "error": null
+    },
+    {
+      "path": "/sampling-info/water.html",
+      "url": "http://localhost:8002/sampling-info/water.html",
+      "description": "Water Sampling Info",
+      "status_code": 200,
+      "success": true,
+      "content_length": 15820,
+      "error": null
+    },
+    {
+      "path": "/sampling-info/soil.html",
+      "url": "http://localhost:8002/sampling-info/soil.html",
+      "description": "Soil Sampling Info",
+      "status_code": 200,
+      "success": true,
+      "content_length": 15820,
+      "error": null
+    },
+    {
+      "path": "/forms/download/Client_Information.pdf",
+      "url": "http://localhost:8002/forms/download/Client_Information.pdf",
+      "description": "Client Information PDF",
+      "status_code": 200,
+      "success": true,
+      "content_length": 330,
+      "error": null
+    },
+    {
+      "path": "/forms/download/Chain_of_Custody.pdf",
+      "url": "http://localhost:8002/forms/download/Chain_of_Custody.pdf",
+      "description": "Chain of Custody PDF",
+      "status_code": 200,
+      "success": true,
+      "content_length": 330,
+      "error": null
+    }
+  ],
+  "broken_links": [],
+  "all_results": [
+    {
+      "path": "/about-us.html",
+      "url": "http://localhost:8002/about-us.html",
+      "description": "About Us Page",
+      "status_code": 200,
+      "success": true,
+      "content_length": 15806,
+      "error": null
+    },
+    {
+      "path": "/license-accreditations.html",
+      "url": "http://localhost:8002/license-accreditations.html",
+      "description": "Accreditations Page",
+      "status_code": 200,
+      "success": true,
+      "content_length": 15806,
+      "error": null
+    },
+    {
+      "path": "/professional-membership.html",
+      "url": "http://localhost:8002/professional-membership.html",
+      "description": "Membership Page",
+      "status_code": 200,
+      "success": true,
+      "content_length": 15806,
+      "error": null
+    },
+    {
+      "path": "/analytical-testing.html",
+      "url": "http://localhost:8002/analytical-testing.html",
+      "description": "All Services Page",
+      "status_code": 200,
+      "success": true,
+      "content_length": 12900,
+      "error": null
+    },
+    {
+      "path": "/services/analytical-testing-agriculture.html",
+      "url": "http://localhost:8002/services/analytical-testing-agriculture.html",
+      "description": "Agriculture Service",
+      "status_code": 200,
+      "success": true,
+      "content_length": 11380,
+      "error": null
+    },
+    {
+      "path": "/services/analytical-testing-microbiology.html",
+      "url": "http://localhost:8002/services/analytical-testing-microbiology.html",
+      "description": "Microbiology Service",
+      "status_code": 200,
+      "success": true,
+      "content_length": 13392,
+      "error": null
+    },
+    {
+      "path": "/services/analytical-testing-environmental.html",
+      "url": "http://localhost:8002/services/analytical-testing-environmental.html",
+      "description": "Environmental Service",
+      "status_code": 200,
+      "success": true,
+      "content_length": 10894,
+      "error": null
+    },
+    {
+      "path": "/services/analytical-testing-construction-materials.html",
+      "url": "http://localhost:8002/services/analytical-testing-construction-materials.html",
+      "description": "Construction Materials Service",
+      "status_code": 200,
+      "success": true,
+      "content_length": 12243,
+      "error": null
+    },
+    {
+      "path": "/services/analytical-testing-dietary-supplements.html",
+      "url": "http://localhost:8002/services/analytical-testing-dietary-supplements.html",
+      "description": "Dietary Supplements Service",
+      "status_code": 200,
+      "success": true,
+      "content_length": 8331,
+      "error": null
+    },
+    {
+      "path": "/services/analytical-testing-research-development.html",
+      "url": "http://localhost:8002/services/analytical-testing-research-development.html",
+      "description": "Research & Development Service",
+      "status_code": 200,
+      "success": true,
+      "content_length": 8989,
+      "error": null
+    },
+    {
+      "path": "/services/agriculture/plant-tissue-petiole.html",
+      "url": "http://localhost:8002/services/agriculture/plant-tissue-petiole.html",
+      "description": "Plant/Tissue/Petiole Service",
+      "status_code": 200,
+      "success": true,
+      "content_length": 15251,
+      "error": null
+    },
+    {
+      "path": "/services/agriculture/soil.html",
+      "url": "http://localhost:8002/services/agriculture/soil.html",
+      "description": "Soil Service",
+      "status_code": 200,
+      "success": true,
+      "content_length": 10026,
+      "error": null
+    },
+    {
+      "path": "/services/agriculture/water.html",
+      "url": "http://localhost:8002/services/agriculture/water.html",
+      "description": "Water Service",
+      "status_code": 200,
+      "success": true,
+      "content_length": 8949,
+      "error": null
+    },
+    {
+      "path": "/services/agriculture/compost.html",
+      "url": "http://localhost:8002/services/agriculture/compost.html",
+      "description": "Compost Service",
+      "status_code": 200,
+      "success": true,
+      "content_length": 12698,
+      "error": null
+    },
+    {
+      "path": "/services/agriculture/fertilizer.html",
+      "url": "http://localhost:8002/services/agriculture/fertilizer.html",
+      "description": "Fertilizer Service",
+      "status_code": 200,
+      "success": true,
+      "content_length": 6564,
+      "error": null
+    },
+    {
+      "path": "/sampling-info/plant-tissue.html",
+      "url": "http://localhost:8002/sampling-info/plant-tissue.html",
+      "description": "Plant/Tissue Sampling Info",
+      "status_code": 200,
+      "success": true,
+      "content_length": 15820,
+      "error": null
+    },
+    {
+      "path": "/sampling-info/water.html",
+      "url": "http://localhost:8002/sampling-info/water.html",
+      "description": "Water Sampling Info",
+      "status_code": 200,
+      "success": true,
+      "content_length": 15820,
+      "error": null
+    },
+    {
+      "path": "/sampling-info/soil.html",
+      "url": "http://localhost:8002/sampling-info/soil.html",
+      "description": "Soil Sampling Info",
+      "status_code": 200,
+      "success": true,
+      "content_length": 15820,
+      "error": null
+    },
+    {
+      "path": "/forms/download/Client_Information.pdf",
+      "url": "http://localhost:8002/forms/download/Client_Information.pdf",
+      "description": "Client Information PDF",
+      "status_code": 200,
+      "success": true,
+      "content_length": 330,
+      "error": null
+    },
+    {
+      "path": "/forms/download/Chain_of_Custody.pdf",
+      "url": "http://localhost:8002/forms/download/Chain_of_Custody.pdf",
+      "description": "Chain of Custody PDF",
+      "status_code": 200,
+      "success": true,
+      "content_length": 330,
+      "error": null
+    }
+  ]
+}

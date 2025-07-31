@@ -1,0 +1,296 @@
+/* Custom site styles to override theme defaults */
+
+:root {
+  --bs-primary: rgb(74, 103, 65) !important;
+  --bs-primary-rgb: 74, 103, 65 !important;
+}
+
+.bg-primary {
+  background-color: rgb(74, 103, 65) !important;
+}
+
+.text-primary {
+  color: rgb(74, 103, 65) !important;
+}
+
+.border-primary {
+  border-color: rgba(74, 103, 65, 0.35) !important;
+}
+
+.btn-primary {
+  background-color: rgb(74, 103, 65) !important;
+  border-color: rgb(74, 103, 65) !important;
+}
+
+.btn-primary:hover, 
+.btn-primary:focus, 
+.btn-primary:active, 
+.btn-primary.active, 
+.btn-primary.show {
+  background-color: rgb(59, 82, 52) !important;
+  border-color: rgb(59, 82, 52) !important;
+}
+
+.btn-outline-primary {
+  color: rgb(74, 103, 65) !important;
+  border-color: rgba(74, 103, 65, 0.35) !important;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active,
+.btn-outline-primary.active,
+.btn-outline-primary.show {
+  background-color: rgb(74, 103, 65) !important;
+  border-color: rgb(74, 103, 65) !important;
+}
+
+.nav-link.active, 
+.nav-item.active > .nav-link,
+.dropdown:hover > .nav-link,
+.nav-link:hover,
+.page-link:hover {
+  color: rgb(74, 103, 65) !important;
+}
+
+.page-item.active .page-link {
+  background-color: rgb(74, 103, 65) !important;
+  border-color: rgb(74, 103, 65) !important;
+}
+
+.form-check-input:checked {
+  background-color: rgb(74, 103, 65) !important;
+  border-color: rgb(74, 103, 65) !important;
+}
+
+.form-switch .form-check-input:checked {
+  background-color: rgb(74, 103, 65) !important;
+  box-shadow: 0 .5rem 1.125rem -0.5rem rgba(74, 103, 65, 0.9) !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-color: rgb(74, 103, 65) !important;
+}
+
+.btn-video:hover {
+  background-color: rgb(74, 103, 65) !important;
+  box-shadow: 0 .5rem 1.125rem -0.5rem rgba(74, 103, 65, 0.9) !important;
+}
+
+.btn-scroll-top:hover {
+  background-color: rgba(74, 103, 65, 0.7) !important;
+}
+
+.list-group-item.active {
+  background-color: rgb(74, 103, 65) !important;
+  border-color: rgb(74, 103, 65) !important;
+}
+
+.bg-gradient-primary {
+  background: linear-gradient(90deg, rgb(74, 103, 65) 0%, rgb(94, 131, 83) 50%, rgb(114, 159, 101) 100%) !important;
+}
+
+.text-gradient-primary {
+  background: linear-gradient(to right, rgb(74, 103, 65), rgb(94, 131, 83), rgb(114, 159, 101));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Dark mode overrides */
+.dark-mode .nav-link.active, 
+.dark-mode .nav-item.active > .nav-link,
+.dark-mode .dropdown:hover > .nav-link,
+.dark-mode .nav-link:hover,
+.dark-mode .page-link:hover {
+  color: rgb(94, 131, 83) !important;
+}
+
+/* Layout fixes */
+.page-wrapper {
+  padding-top: 80px; /* Add space for the fixed navbar */
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  transition: all 0.3s ease;
+}
+
+section.container {
+  margin-top: 2rem;
+}
+
+/* Card hover effects */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Button hover effects */
+.btn {
+  transition: all 0.3s ease;
+}
+
+/* Fix for "Learn More" buttons hover state */
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active,
+.btn-outline-primary.active {
+  color: #fff !important;
+  background-color: rgb(74, 103, 65) !important;
+}
+
+/* Default state for buttons in cards */
+.card .btn-outline-primary {
+  color: rgb(74, 103, 65) !important;
+}
+
+/* Ensure Learn More buttons have white text on hover */
+a.btn-outline-primary:hover,
+button.btn-outline-primary:hover,
+.btn-sm.btn-outline-primary:hover,
+.stretched-link.btn-outline-primary:hover {
+  color: #fff !important;
+}
+
+/* Target specifically the Learn More buttons in the services section */
+.card .btn-sm.btn-outline-primary:hover {
+  color: #fff !important;
+}
+
+/* Hero section styles */
+.display-4 {
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.lead {
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+/* Testimonial styles */
+.testimonial-card {
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #f8f9fa;
+}
+
+.footer .nav-link {
+  padding: 0.25rem 0;
+  transition: color 0.3s ease;
+}
+
+.footer .nav-link:hover {
+  color: var(--bs-primary) !important;
+}
+
+.social-links .btn-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.social-links .btn-icon:hover {
+  background-color: var(--bs-primary);
+  color: #fff;
+}
+
+/* Animation effects */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease forwards;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767.98px) {
+  .display-4 {
+    font-size: 2.5rem;
+  }
+}
+
+/* Global button hover state - ensure white text on all buttons */
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn.show {
+  color: #fff !important;
+}
+
+/* Ensure all button variants have white text on hover */
+.btn-primary:hover,
+.btn-secondary:hover,
+.btn-success:hover,
+.btn-danger:hover,
+.btn-warning:hover,
+.btn-info:hover,
+.btn-light:hover,
+.btn-dark:hover,
+.btn-outline-primary:hover,
+.btn-outline-secondary:hover,
+.btn-outline-success:hover,
+.btn-outline-danger:hover,
+.btn-outline-warning:hover,
+.btn-outline-info:hover,
+.btn-outline-light:hover,
+.btn-outline-dark:hover {
+  color: #fff !important;
+}
+
+/* Fix for link-style buttons */
+a.btn:hover,
+button.btn:hover,
+.btn-link:hover {
+  color: #fff !important;
+}
+
+/* Fix for card buttons */
+.card .btn:hover {
+  color: #fff !important;
+}
+
+/* Force all button content to white when hovered - universal override */
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn.show,
+.btn:hover *,
+.btn:focus *,
+.btn:active *,
+.btn.active *,
+.btn.show * {
+  color: #fff !important;
+}
+
+/* Ensure stretched links in cards have white text on hover */
+.card:hover .stretched-link.btn-outline-primary:hover,
+.card .stretched-link.btn-outline-primary:hover {
+  color: #fff !important;
+}
+
+/* Override any other styles that might be interfering */
+.btn-outline-primary:hover {
+  color: #fff !important;
+}

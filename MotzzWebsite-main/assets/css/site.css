@@ -183,33 +183,200 @@ button.btn-outline-primary:hover,
   overflow: hidden;
 }
 
-/* Footer styles */
+/* Enhanced Footer styles */
 .footer {
   background-color: #f8f9fa;
 }
 
-.footer .nav-link {
-  padding: 0.25rem 0;
-  transition: color 0.3s ease;
+/* Modern Footer Sections */
+.footer-section {
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 15px;
+  padding: 2rem 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  height: 100%;
 }
 
-.footer .nav-link:hover {
+.footer-section:hover {
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+/* Footer Logo Section */
+.footer-logo-section h4 {
+  text-decoration: none !important;
+  color: #2d3748 !important;
+  font-size: 1.25rem;
+  line-height: 1.3;
+}
+
+.footer-logo-section a {
+  text-decoration: none !important;
+}
+
+.footer-logo-section a:hover {
+  text-decoration: none !important;
+}
+
+/* Footer Navigation */
+.footer-nav {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-nav .nav-item {
+  transition: all 0.2s ease;
+}
+
+.footer-link {
+  padding: 0.5rem 0 !important;
+  transition: all 0.3s ease;
+  text-decoration: none !important;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  padding-left: 0.5rem !important;
+  margin-left: -0.5rem;
+}
+
+.footer-link:hover {
   color: var(--bs-primary) !important;
+  background-color: rgba(74, 103, 65, 0.1);
+  transform: translateX(5px);
+  text-decoration: none !important;
 }
 
+.footer-link i {
+  transition: all 0.3s ease;
+}
+
+.footer-link:hover i {
+  transform: translateX(3px);
+}
+
+/* Contact Info Styling */
+.contact-info .contact-item {
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  padding: 0.5rem;
+  margin: -0.5rem;
+}
+
+.contact-info .contact-item:hover {
+  background-color: rgba(74, 103, 65, 0.05);
+}
+
+.footer-contact-link {
+  transition: all 0.3s ease;
+}
+
+.footer-contact-link:hover {
+  color: var(--bs-primary) !important;
+  text-decoration: none !important;
+}
+
+/* Enhanced Social Links */
 .social-links .btn-icon {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2.75rem;
+  height: 2.75rem;
   padding: 0;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
+  border-radius: 12px;
+  font-size: 1.1rem;
 }
 
 .social-links .btn-icon:hover {
-  background-color: var(--bs-primary);
-  color: #fff;
+  background-color: var(--bs-primary) !important;
+  border-color: var(--bs-primary) !important;
+  color: #fff !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(74, 103, 65, 0.3);
+}
+
+/* Footer Headings */
+.footer-section h5 {
+  color: #2d3748 !important;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.footer-section h5::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 30px;
+  height: 2px;
+  background: var(--bs-primary);
+  border-radius: 1px;
+}
+
+/* Enhanced Button Styling */
+.footer-section .btn-primary {
+  border-radius: 10px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(74, 103, 65, 0.2);
+}
+
+.footer-section .btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(74, 103, 65, 0.3);
+}
+
+/* Responsive Footer */
+@media (max-width: 991.98px) {
+  .footer-section {
+    padding: 1.5rem 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .footer-section {
+    padding: 1.25rem 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-logo-section h4 {
+    font-size: 1.1rem;
+  }
+  
+  .social-links .btn-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}
+
+/* Dark Mode Footer Support */
+.dark-mode .footer-section {
+  background: rgba(45, 55, 72, 0.6);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .footer-section:hover {
+  background: rgba(45, 55, 72, 0.8);
+}
+
+.dark-mode .footer-logo-section h4,
+.dark-mode .footer-section h5 {
+  color: #f7fafc !important;
+}
+
+.dark-mode .footer-link:hover {
+  background-color: rgba(74, 103, 65, 0.2);
+}
+
+.dark-mode .contact-info .contact-item:hover {
+  background-color: rgba(74, 103, 65, 0.1);
 }
 
 /* Animation effects */

@@ -1,0 +1,469 @@
+{
+  "statistics": {
+    "files_processed": 90,
+    "files_fixed": 76,
+    "critical_fixes": 0,
+    "warning_fixes": 0,
+    "info_fixes": 0
+  },
+  "fixes_applied": [
+    {
+      "file": "MotzzWebsite-main\\header-fixed.html",
+      "fixes": [
+        "Added header div",
+        "Added footer div",
+        "Added navigation script"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\index.html",
+      "fixes": [
+        "Added header div"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\about-us\\analytical-testing.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\about-us\\forms.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\about-us\\index.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\about-us\\license-accreditations.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\about-us\\privacy-policy.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\about-us\\professional-membership.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\about-us\\terms-conditions.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\assets\\vendor\\boxicons\\dev.box-icon-element.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\assets\\vendor\\rellax\\demo.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\assets\\vendor\\rellax\\tests\\center.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\assets\\vendor\\rellax\\tests\\destroy.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\assets\\vendor\\rellax\\tests\\directions.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\assets\\vendor\\rellax\\tests\\horizontal.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\assets\\vendor\\rellax\\tests\\percentage.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\assets\\vendor\\rellax\\tests\\range.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\assets\\vendor\\rellax\\tests\\responsive-speeds.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\assets\\vendor\\rellax\\tests\\speed.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\assets\\vendor\\rellax\\tests\\style.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\assets\\vendor\\rellax\\tests\\wrapper.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\assets\\vendor\\smooth-scroll\\index.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\assets\\vendor\\smooth-scroll\\jump-to-top.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\assets\\vendor\\smooth-scroll\\speed.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\assets\\vendor\\smooth-scroll\\src\\copy\\index.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\assets\\vendor\\smooth-scroll\\src\\copy\\jump-to-top.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\assets\\vendor\\smooth-scroll\\src\\copy\\speed.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\assets\\vendor\\vanilla-tilt\\test\\index.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\contact-us\\about-us.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\contact-us\\analytical-testing.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\contact-us\\forms.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\contact-us\\index.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\contact-us\\license-accreditations.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\contact-us\\privacy-policy.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\contact-us\\professional-membership.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\contact-us\\terms-conditions.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\forms\\about-us.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\forms\\analytical-testing.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\forms\\index.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\forms\\license-accreditations.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\forms\\privacy-policy.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\forms\\professional-membership.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\forms\\terms-conditions.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\laboratorytesting\\about-us.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\laboratorytesting\\analytical-testing.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\laboratorytesting\\forms.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\laboratorytesting\\index.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\laboratorytesting\\license-accreditations.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\laboratorytesting\\privacy-policy.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\laboratorytesting\\professional-membership.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\laboratorytesting\\terms-conditions.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\sampling\\about-us.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\sampling\\analytical-testing.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\sampling\\forms.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\sampling\\index.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\sampling\\license-accreditations.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\sampling\\privacy-policy.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\sampling\\professional-membership.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\sampling\\terms-conditions.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\sampling-info\\plant-tissue.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\sampling-info\\soil.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\sampling-info\\water.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\services\\analytical-testing-agriculture.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\services\\analytical-testing-cannabis-hemp.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\services\\analytical-testing-construction-materials.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\services\\analytical-testing-dietary-supplements.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\services\\analytical-testing-environmental.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\services\\analytical-testing-fertilizer.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\services\\analytical-testing-microbiology.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\services\\analytical-testing-neutraceutical-vitamins.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\services\\analytical-testing-research-development.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\services\\agriculture\\compost.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\services\\agriculture\\fertilizer.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\services\\agriculture\\plant-tissue-petiole.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\services\\agriculture\\soil.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    },
+    {
+      "file": "MotzzWebsite-main\\services\\agriculture\\water.html",
+      "fixes": [
+        "Fixed asset paths"
+      ]
+    }
+  ]
+}

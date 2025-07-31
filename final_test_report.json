@@ -1,0 +1,227 @@
+{
+  "timestamp": "2025-07-30T19:44:20.550534",
+  "summary": {
+    "total_tests": 27,
+    "passed": 27,
+    "failed": 0,
+    "success_rate": 100.0
+  },
+  "results": [
+    {
+      "url": "http://localhost:8002/",
+      "description": "Homepage",
+      "status_code": 200,
+      "success": true,
+      "content_length": 19529,
+      "error": null
+    },
+    {
+      "url": "http://localhost:8002/index.html",
+      "description": "Index Page",
+      "status_code": 200,
+      "success": true,
+      "content_length": 19529,
+      "error": null
+    },
+    {
+      "url": "http://localhost:8002/about-us.html",
+      "description": "About Us",
+      "status_code": 200,
+      "success": true,
+      "content_length": 15806,
+      "error": null
+    },
+    {
+      "url": "http://localhost:8002/analytical-testing.html",
+      "description": "Analytical Testing",
+      "status_code": 200,
+      "success": true,
+      "content_length": 12900,
+      "error": null
+    },
+    {
+      "url": "http://localhost:8002/forms.html",
+      "description": "Forms",
+      "status_code": 200,
+      "success": true,
+      "content_length": 15810,
+      "error": null
+    },
+    {
+      "url": "http://localhost:8002/license-accreditations.html",
+      "description": "License & Accreditations",
+      "status_code": 200,
+      "success": true,
+      "content_length": 15806,
+      "error": null
+    },
+    {
+      "url": "http://localhost:8002/professional-membership.html",
+      "description": "Professional Membership",
+      "status_code": 200,
+      "success": true,
+      "content_length": 15806,
+      "error": null
+    },
+    {
+      "url": "http://localhost:8002/privacy-policy.html",
+      "description": "Privacy Policy",
+      "status_code": 200,
+      "success": true,
+      "content_length": 1088,
+      "error": null
+    },
+    {
+      "url": "http://localhost:8002/terms-conditions.html",
+      "description": "Terms & Conditions",
+      "status_code": 200,
+      "success": true,
+      "content_length": 1100,
+      "error": null
+    },
+    {
+      "url": "http://localhost:8002/services/analytical-testing-agriculture.html",
+      "description": "Agriculture Testing",
+      "status_code": 200,
+      "success": true,
+      "content_length": 11380,
+      "error": null
+    },
+    {
+      "url": "http://localhost:8002/services/analytical-testing-cannabis-hemp.html",
+      "description": "Cannabis & Hemp Testing",
+      "status_code": 200,
+      "success": true,
+      "content_length": 15421,
+      "error": null
+    },
+    {
+      "url": "http://localhost:8002/services/analytical-testing-construction-materials.html",
+      "description": "Construction Materials Testing",
+      "status_code": 200,
+      "success": true,
+      "content_length": 12243,
+      "error": null
+    },
+    {
+      "url": "http://localhost:8002/services/analytical-testing-dietary-supplements.html",
+      "description": "Dietary Supplements Testing",
+      "status_code": 200,
+      "success": true,
+      "content_length": 8331,
+      "error": null
+    },
+    {
+      "url": "http://localhost:8002/services/analytical-testing-environmental.html",
+      "description": "Environmental Testing",
+      "status_code": 200,
+      "success": true,
+      "content_length": 10894,
+      "error": null
+    },
+    {
+      "url": "http://localhost:8002/services/analytical-testing-fertilizer.html",
+      "description": "Fertilizer Testing",
+      "status_code": 200,
+      "success": true,
+      "content_length": 10416,
+      "error": null
+    },
+    {
+      "url": "http://localhost:8002/services/analytical-testing-microbiology.html",
+      "description": "Microbiology Testing",
+      "status_code": 200,
+      "success": true,
+      "content_length": 13392,
+      "error": null
+    },
+    {
+      "url": "http://localhost:8002/services/analytical-testing-neutraceutical-vitamins.html",
+      "description": "Nutraceutical & Vitamins Testing",
+      "status_code": 200,
+      "success": true,
+      "content_length": 6799,
+      "error": null
+    },
+    {
+      "url": "http://localhost:8002/services/analytical-testing-research-development.html",
+      "description": "Research & Development Testing",
+      "status_code": 200,
+      "success": true,
+      "content_length": 8989,
+      "error": null
+    },
+    {
+      "url": "http://localhost:8002/sampling-info/plant-tissue.html",
+      "description": "Plant Tissue Sampling",
+      "status_code": 200,
+      "success": true,
+      "content_length": 15820,
+      "error": null
+    },
+    {
+      "url": "http://localhost:8002/sampling-info/soil.html",
+      "description": "Soil Sampling",
+      "status_code": 200,
+      "success": true,
+      "content_length": 15820,
+      "error": null
+    },
+    {
+      "url": "http://localhost:8002/sampling-info/water.html",
+      "description": "Water Sampling",
+      "status_code": 200,
+      "success": true,
+      "content_length": 15820,
+      "error": null
+    },
+    {
+      "url": "http://localhost:8002/header.html",
+      "description": "Header Include",
+      "status_code": 200,
+      "success": true,
+      "content_length": 6176,
+      "error": null
+    },
+    {
+      "url": "http://localhost:8002/footer.html",
+      "description": "Footer Include",
+      "status_code": 200,
+      "success": true,
+      "content_length": 5947,
+      "error": null
+    },
+    {
+      "url": "http://localhost:8002/assets/css/site.css",
+      "description": "Site CSS",
+      "status_code": 200,
+      "success": true,
+      "content_length": 6266,
+      "error": null
+    },
+    {
+      "url": "http://localhost:8002/assets/css/theme.min.css",
+      "description": "Theme CSS",
+      "status_code": 200,
+      "success": true,
+      "content_length": 279752,
+      "error": null
+    },
+    {
+      "url": "http://localhost:8002/assets/js/include-nav.js",
+      "description": "Navigation JS",
+      "status_code": 200,
+      "success": true,
+      "content_length": 2128,
+      "error": null
+    },
+    {
+      "url": "http://localhost:8002/assets/img/logo.svg",
+      "description": "Logo",
+      "status_code": 200,
+      "success": true,
+      "content_length": 854722,
+      "error": null
+    }
+  ]
+}

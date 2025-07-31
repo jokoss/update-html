@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+      <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-91GVXTEZDQ"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-91GVXTEZDQ');
+      </script>
+      <meta charset="utf-8">
+
+      <title>Motzz Laboratory | Analytical Testing Laboratory</title>
+
+      <meta name="description" content="Motzz Laboratory | Analytical Testing Laboratory">
+      <meta name="keywords" content="motzzlab, motzz, lab, analytical, testing, laboratory, landing, html5, css3, javascript">
+      <meta name="author" content="Motzz Laboratory">
+
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+      <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+      <meta http-equiv="Pragma" content="no-cache">
+      <meta http-equiv="Expires" content="0">
+
+      <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+      <link rel="manifest" href="./assets/favicon/site.webmanifest">
+      <link rel="mask-icon" href="./assets/favicon/safari-pinned-tab.svg" color="#6366f1">
+      <link rel="shortcut icon" href="./assets/favicon/favicon.ico">
+      <meta name="msapplication-TileColor" content="#080032">
+      <meta name="msapplication-config" content="./assets/favicon/browserconfig.xml">
+      <meta name="theme-color" content="#ffffff">
+
+      <link rel="stylesheet" media="screen" href="./assets/vendor/boxicons/css/boxicons.min.css"/>
+      <link rel="stylesheet" media="screen" href="./assets/vendor/swiper/swiper-bundle.min.css"/>
+
+      <link rel="stylesheet" media="screen" href="./assets/css/theme.min.css">
+
+      <link rel="stylesheet" media="screen" href="./assets/css/site.css">
+
+      <style>
+          .page-loading {
+          position: fixed;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          -webkit-transition: all .4s .2s ease-in-out;
+          transition: all .4s .2s ease-in-out;
+          background-color: #fff;
+          opacity: 0;
+          visibility: hidden;
+          z-index: 9999;
+          }
+          .dark-mode .page-loading {
+          background-color: #131022;
+          }
+          .page-loading.active {
+          opacity: 1;
+          visibility: visible;
+          }
+          .page-loading-inner {
+          position: absolute;
+          top: 50%;
+          left: 0;
+          width: 100%;
+          text-align: center;
+          -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+          -webkit-transition: opacity .2s ease-in-out;
+          transition: opacity .2s ease-in-out;
+          opacity: 0;
+          }
+          .page-loading.active > .page-loading-inner {
+          opacity: 1;
+          }
+          .page-loading-inner > span {
+          display: block;
+          font-size: 1rem;
+          font-weight: normal;
+          color: #9397ad;
+          }
+          .dark-mode .page-loading-inner > span {
+          color: #fff;
+          opacity: .6;
+          }
+          .page-spinner {
+          display: inline-block;
+          width: 2.75rem;
+          height: 2.75rem;
+          margin-bottom: .75rem;
+          vertical-align: text-bottom;
+          border: .15em solid #b4b7c9;
+          border-right-color: transparent;
+          border-radius: 50%;
+          -webkit-animation: spinner .75s linear infinite;
+          animation: spinner .75s linear infinite;
+          }
+          .dark-mode .page-spinner {
+          border-color: rgba(255,255,255,.4);
+          border-right-color: transparent;
+          }
+          @-webkit-keyframes spinner {
+          100% {
+              -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+          }
+          }
+          @keyframes spinner {
+          100% {
+              -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+          }
+          }
+      </style>
+
+      <script>
+          let mode = window.localStorage.getItem('mode'),
+              root = document.getElementsByTagName('html')[0];
+          if (mode !== undefined && mode === 'dark') {
+          root.classList.add('dark-mode');
+          } else {
+          root.classList.remove('dark-mode');
+          }
+      </script>
+  
+      <script>
+          (function () {
+          window.onload = function () {
+              const preloader = document.querySelector('.page-loading');
+              preloader.classList.remove('active');
+              setTimeout(function () {
+              preloader.remove();
+              }, 1000);
+          };
+          })();
+      </script>
+
+  </head>
+
+  <body>
+
+    <header id=\"header\"></header>
+    <div class="page-loading active">
+        <div class="page-loading-inner">
+        <div class="page-spinner"></div><span>Loading...</span>
+        </div>
+    </div>
+
+    <main class="page-wrapper">
+
+      <!-- Hero Section -->
+      <section class="container py-5">
+        <div class="row align-items-center py-4 py-lg-5">
+          <div class="col-lg-7 mb-4 mb-lg-0">
+            <h1 class="display-4 fw-bold mb-3">Analytical Testing Laboratory</h1>
+            <p class="lead mb-4">Providing accurate and reliable testing services for agriculture, environmental, construction, and more.</p>
+            <div class="d-flex flex-wrap gap-2">
+              <a href="./analytical-testing.html" class="btn btn-primary">Explore Our Services</a>
+              <a href="tel:6024542376" class="btn btn-outline-primary">Contact Us</a>
+            </div>
+          </div>
+          <div class="col-lg-5 d-flex justify-content-center">
+            <div class="bg-secondary rounded-3 p-4 text-center">
+              <img src="./assets/img/logo.svg" width="200" alt="Motzz Laboratory Logo" class="mb-3">
+              <p class="mb-0 fw-medium">ISO/IEC 17025:2017 Accredited</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section class="container py-5 border-top">
+        <div class="row justify-content-center text-center mb-4">
+          <div class="col-lg-8">
+            <h2 class="h1 mb-3">Our Services</h2>
+            <p class="lead mb-0">Comprehensive analytical testing services for various industries</p>
+          </div>
+        </div>
+        
+        <div class="row">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-6 mb-4">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body text-center p-4">
+                <div class="d-inline-block bg-secondary rounded-3 p-3 mb-4">
+                  <a href="services/analytical-testing-agriculture.html">
+                    <img src="./assets/img/services/agriculture.jpg" width="250" alt="agriculture" class="img-fluid">
+                  </a>  
+                </div>
+                <h3 class="h5 mb-3">Agriculture</h3>
+                <p class="mb-3">Plant/Tissue, Irrigation Water, Soil Analysis</p>
+                <a href="services/analytical-testing-agriculture.html" class="btn btn-sm btn-outline-primary stretched-link">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 mb-4">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body text-center p-4">
+                <div class="d-inline-block bg-secondary rounded-3 p-3 mb-4">
+                  <a href="services/analytical-testing-construction-materials.html">
+                    <img src="./assets/img/services/construction-materials.jpg" width="250" alt="construction-materials" class="img-fluid">
+                  </a>
+                </div>
+                <h3 class="h5 mb-3">Construction / Materials</h3>
+                <p class="mb-3">Soil and Aggregates Analysis</p>
+                <a href="services/analytical-testing-construction-materials.html" class="btn btn-sm btn-outline-primary stretched-link">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 mb-4">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body text-center p-4">
+                <div class="d-inline-block bg-secondary rounded-3 p-3 mb-4">
+                  <a href="services/analytical-testing-environmental.html">
+                    <img src="./assets/img/services/environmental.jpg" width="250" alt="environmental" class="img-fluid">
+                  </a>
+                </div>
+                <h3 class="h5 mb-3">Environmental</h3>
+                <p class="mb-3">Safe Drinking Water, Well Water, Waste Water, Solid Waste</p>
+                <a href="services/analytical-testing-environmental.html" class="btn btn-sm btn-outline-primary stretched-link">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 mb-4">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body text-center p-4">
+                <div class="d-inline-block bg-secondary rounded-3 p-3 mb-4">
+                  <a href="services/analytical-testing-microbiology.html">
+                    <img src="./assets/img/services/microbiology.jpg" width="250" alt="microbiology" class="img-fluid">
+                  </a>
+                </div>
+                <h3 class="h5 mb-3">Microbiology</h3>
+                <p class="mb-3">Fertilizer, Drinking Water</p>
+                <a href="services/analytical-testing-microbiology.html" class="btn btn-sm btn-outline-primary stretched-link">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 mb-4">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body text-center p-4">
+                <div class="d-inline-block bg-secondary rounded-3 p-3 mb-4">
+                  <a href="services/analytical-testing-dietary-supplements.html">
+                    <img src="./assets/img/services/neutraceutical.jpg" width="250" alt="neutraceutical" class="img-fluid">
+                  </a>
+                </div>
+                <h3 class="h5 mb-3">Dietary Supplements</h3>
+                <p class="mb-3">Minerals, Contaminants, Heavy Metals, Microbiology</p>
+                <a href="services/analytical-testing-dietary-supplements.html" class="btn btn-sm btn-outline-primary stretched-link">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 mb-4">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body text-center p-4">
+                <div class="d-inline-block bg-secondary rounded-3 p-3 mb-4">
+                  <a href="services/analytical-testing-research-development.html">
+                    <img src="./assets/img/services/innovation.jpg" width="250" alt="neutraceutical" class="img-fluid">
+                  </a>
+                </div>
+                <h3 class="h5 mb-3">Research and Development</h3>
+                <p class="mb-3">Method Development, Stability Study, etc</p>
+                <a href="services/analytical-testing-research-development.html" class="btn btn-sm btn-outline-primary stretched-link">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials Section -->
+      <section class="container py-5 border-top">
+        <div class="row justify-content-center text-center mb-4">
+          <div class="col-lg-8">
+            <h2 class="h1 mb-3">What Our Clients Say</h2>
+            <p class="lead mb-0">Trusted by businesses and organizations across various industries</p>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col-lg-4 mb-4">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body p-4">
+                <div class="d-flex align-items-center mb-3">
+                  <div class="text-primary me-3">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                  </div>
+                </div>
+                <p class="mb-3">"I have been using Motzz for four years for all of our sulfates, chlorides, pH and minimum resistivity testing and I have to say they are a pleasure to work with! They are always on-time, friendly and professional. And I know I won't have to wait a month or two to receive an invoice."</p>
+                <div class="d-flex align-items-center">
+                  <div>
+                    <h6 class="mb-0">Kirk Jackson</h6>
+                    <p class="mb-0 text-muted small">Google Review</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 mb-4">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body p-4">
+                <div class="d-flex align-items-center mb-3">
+                  <div class="text-primary me-3">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                  </div>
+                </div>
+                <p class="mb-3">"These guys are wonderful! They know more about soil and proper nutrient than anyone else I have worked with. They are customer friendly and obviously train their staff to work well with their clients AND they always do what they say they are going to do. Two thumbs up and happy customer."</p>
+                <div class="d-flex align-items-center">
+                  <div>
+                    <h6 class="mb-0">Zanzibar Vermiglio</h6>
+                    <p class="mb-0 text-muted small">Google Review</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 mb-4">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body p-4">
+                <div class="d-flex align-items-center mb-3">
+                  <div class="text-primary me-3">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                  </div>
+                </div>
+                <p class="mb-3">"Thelma and her team are always a pleasure to work with! They are very professional, their work is superb, and the turn-around on results are quick."</p>
+                <div class="d-flex align-items-center">
+                  <div>
+                    <h6 class="mb-0">Duane Barbano</h6>
+                    <p class="mb-0 text-muted small">Google Review</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container mt-n1 mt-md-0 py-5">
+        <div class="row justify-content-center text-center pt-md-3 pb-4 py-lg-5 mb-1">
+          <div class="col-xl-8 col-lg-9 col-md-10">
+            <h2 class="h1 mb-lg-4">License and Accreditations</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center text-center pb-md-3 pb-lg-5">
+          
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card card-body card-hover bg-light border-0 text-center h-100">
+                <div class="d-flex justify-content-center align-items-center flex-grow-1 mb-4">
+                  <img src="./assets/img/6471.01_ILAC MRA-A2LA Accredited Symbol.jpg" class="d-block mx-auto" width="200" alt="ISO 17025: 2017">
+                </div>
+              <p class="mb-0">ISO/IEC 17025: 2017</p>
+            </div>
+          </div>
+          
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card card-body card-hover bg-light border-0 text-center h-100">
+              <div class="d-flex justify-content-center align-items-center flex-grow-1 mb-4">
+                <a href="https://www.azdhs.gov/">
+                  <img src="./assets/img/adhs-logo.png" class="d-block mx-auto" width="50" alt="Arizona Department of Health Services">
+                </a>
+              </div>
+              <p class="mb-0">AZ Department of Health Services</p>
+            </div>
+          </div>
+          
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card card-body card-hover bg-light border-0 text-center h-100">
+              <div class="d-flex justify-content-center align-items-center flex-grow-1 mb-4">
+                <a href="https://agriculture.az.gov/">
+                  <img src="./assets/img/azda-logo.jpg" class="d-block mx-auto" width="100" alt="Arizona Department of Agriculture">
+                </a>
+              </div>
+              <p class="mb-0">AZ Department of Agriculture</p>
+            </div>
+          </div>
+          
+          <div class="col-md-3 col-sm-6 mb-4">
+              <div class="card card-body card-hover bg-light border-0 text-center h-100">
+                <div class="d-flex justify-content-center align-items-center flex-grow-1 mb-4">
+                  <a href="http://azdot.gov">
+                    <img src="./assets/img/adot-logo.png" class="d-block mx-auto" width="200" alt="Arizona Department of Transportation">
+                  </a>
+                </div>
+                <p class="mb-0">AZ Department of Transportation</p>
+              </div>
+          </div>
+      </section>
+    </main>
+
+    <footer id="footer" class="footer bg-secondary pt-5 pb-4 pb-lg-5">
+      <!-- Footer content will be loaded via JavaScript -->
+    </footer>
+
+    <a href="#top" class="btn-scroll-top" data-scroll>
+      <span class="btn-scroll-top-tooltip text-muted fs-sm me-2">Top</span>
+      <i class="btn-scroll-top-icon bx bx-chevron-up"></i>
+    </a>
+  
+    <script src="/assets/js/include-nav.js"></script>
+
+    <script src="./assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="./assets/vendor/rellax/rellax.min.js"></script>
+    <script src="./assets/vendor/@lottiefiles/lottie-player/dist/lottie-player.js"></script>
+    <script src="./assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <script src="./assets/js/theme.min.js"></script>
+    
+  </body>
+</html>

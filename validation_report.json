@@ -1,0 +1,351 @@
+{
+  "statistics": {
+    "total_pages_tested": 19,
+    "pages_passed": 5,
+    "pages_failed": 14,
+    "navigation_tests_passed": 5,
+    "navigation_tests_failed": 14,
+    "asset_tests_passed": 4,
+    "asset_tests_failed": 15
+  },
+  "results": [
+    {
+      "page": "Homepage",
+      "url": "http://localhost:8002/MotzzWebsite-main/index.html",
+      "status": "PASS",
+      "status_code": 200,
+      "has_html_structure": true,
+      "has_header_div": true,
+      "has_footer_div": true,
+      "has_navigation_script": true,
+      "has_404_error": false,
+      "content_length": 19529,
+      "issues": [],
+      "assets": {
+        "css_assets": 4,
+        "js_assets": 7,
+        "image_assets": 11,
+        "failed_assets": []
+      }
+    },
+    {
+      "page": "About Us",
+      "url": "http://localhost:8002/MotzzWebsite-main/about-us.html",
+      "status": "PASS",
+      "status_code": 200,
+      "has_html_structure": true,
+      "has_header_div": true,
+      "has_footer_div": true,
+      "has_navigation_script": true,
+      "has_404_error": false,
+      "content_length": 15806,
+      "issues": [],
+      "assets": {
+        "css_assets": 4,
+        "js_assets": 7,
+        "image_assets": 1,
+        "failed_assets": []
+      }
+    },
+    {
+      "page": "Analytical Testing",
+      "url": "http://localhost:8002/MotzzWebsite-main/analytical-testing.html",
+      "status": "PASS",
+      "status_code": 200,
+      "has_html_structure": true,
+      "has_header_div": true,
+      "has_footer_div": true,
+      "has_navigation_script": true,
+      "has_404_error": false,
+      "content_length": 12900,
+      "issues": [],
+      "assets": {
+        "css_assets": 4,
+        "js_assets": 7,
+        "image_assets": 6,
+        "failed_assets": []
+      }
+    },
+    {
+      "page": "Forms",
+      "url": "http://localhost:8002/MotzzWebsite-main/forms.html",
+      "status": "PASS",
+      "status_code": 200,
+      "has_html_structure": true,
+      "has_header_div": true,
+      "has_footer_div": true,
+      "has_navigation_script": true,
+      "has_404_error": false,
+      "content_length": 15810,
+      "issues": [],
+      "assets": {
+        "css_assets": 4,
+        "js_assets": 7,
+        "image_assets": 1,
+        "failed_assets": []
+      }
+    },
+    {
+      "page": "License & Accreditations",
+      "url": "http://localhost:8002/MotzzWebsite-main/license-accreditations.html",
+      "status": "PASS",
+      "status_code": 200,
+      "has_html_structure": true,
+      "has_header_div": true,
+      "has_footer_div": true,
+      "has_navigation_script": true,
+      "has_404_error": false,
+      "content_length": 15806,
+      "issues": [],
+      "assets": {
+        "css_assets": 4,
+        "js_assets": 7,
+        "image_assets": 1,
+        "failed_assets": [
+          "JS: ./assets/js/include-nav.js (Failed to load)",
+          "JS: ./assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js (Failed to load)",
+          "JS: ./assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js (Failed to load)"
+        ]
+      }
+    },
+    {
+      "page": "Professional Membership",
+      "url": "http://localhost:8002/MotzzWebsite-main/professional-membership.html",
+      "status": "FAIL",
+      "status_code": 0,
+      "issues": [
+        "Request failed: HTTPConnectionPool(host='localhost', port=8002): Read timed out. (read timeout=10)"
+      ],
+      "assets": {
+        "css_assets": 0,
+        "js_assets": 0,
+        "image_assets": 0,
+        "failed_assets": [
+          "Asset test failed: HTTPConnectionPool(host='localhost', port=8002): Read timed out. (read timeout=10)"
+        ]
+      }
+    },
+    {
+      "page": "Privacy Policy",
+      "url": "http://localhost:8002/MotzzWebsite-main/privacy-policy.html",
+      "status": "FAIL",
+      "status_code": 0,
+      "issues": [
+        "Request failed: HTTPConnectionPool(host='localhost', port=8002): Read timed out. (read timeout=10)"
+      ],
+      "assets": {
+        "css_assets": 0,
+        "js_assets": 0,
+        "image_assets": 0,
+        "failed_assets": [
+          "Asset test failed: HTTPConnectionPool(host='localhost', port=8002): Read timed out. (read timeout=10)"
+        ]
+      }
+    },
+    {
+      "page": "Terms & Conditions",
+      "url": "http://localhost:8002/MotzzWebsite-main/terms-conditions.html",
+      "status": "FAIL",
+      "status_code": 0,
+      "issues": [
+        "Request failed: HTTPConnectionPool(host='localhost', port=8002): Read timed out. (read timeout=10)"
+      ],
+      "assets": {
+        "css_assets": 0,
+        "js_assets": 0,
+        "image_assets": 0,
+        "failed_assets": [
+          "Asset test failed: HTTPConnectionPool(host='localhost', port=8002): Read timed out. (read timeout=10)"
+        ]
+      }
+    },
+    {
+      "page": "Agriculture Services",
+      "url": "http://localhost:8002/MotzzWebsite-main/services/analytical-testing-agriculture.html",
+      "status": "FAIL",
+      "status_code": 0,
+      "issues": [
+        "Request failed: HTTPConnectionPool(host='localhost', port=8002): Read timed out. (read timeout=10)"
+      ],
+      "assets": {
+        "css_assets": 0,
+        "js_assets": 0,
+        "image_assets": 0,
+        "failed_assets": [
+          "Asset test failed: HTTPConnectionPool(host='localhost', port=8002): Read timed out. (read timeout=10)"
+        ]
+      }
+    },
+    {
+      "page": "Microbiology Services",
+      "url": "http://localhost:8002/MotzzWebsite-main/services/analytical-testing-microbiology.html",
+      "status": "FAIL",
+      "status_code": 0,
+      "issues": [
+        "Request failed: HTTPConnectionPool(host='localhost', port=8002): Read timed out. (read timeout=10)"
+      ],
+      "assets": {
+        "css_assets": 0,
+        "js_assets": 0,
+        "image_assets": 0,
+        "failed_assets": [
+          "Asset test failed: HTTPConnectionPool(host='localhost', port=8002): Read timed out. (read timeout=10)"
+        ]
+      }
+    },
+    {
+      "page": "Environmental Services",
+      "url": "http://localhost:8002/MotzzWebsite-main/services/analytical-testing-environmental.html",
+      "status": "FAIL",
+      "status_code": 0,
+      "issues": [
+        "Request failed: HTTPConnectionPool(host='localhost', port=8002): Read timed out. (read timeout=10)"
+      ],
+      "assets": {
+        "css_assets": 0,
+        "js_assets": 0,
+        "image_assets": 0,
+        "failed_assets": [
+          "Asset test failed: HTTPConnectionPool(host='localhost', port=8002): Read timed out. (read timeout=10)"
+        ]
+      }
+    },
+    {
+      "page": "Construction Materials",
+      "url": "http://localhost:8002/MotzzWebsite-main/services/analytical-testing-construction-materials.html",
+      "status": "FAIL",
+      "status_code": 0,
+      "issues": [
+        "Request failed: HTTPConnectionPool(host='localhost', port=8002): Read timed out. (read timeout=10)"
+      ],
+      "assets": {
+        "css_assets": 0,
+        "js_assets": 0,
+        "image_assets": 0,
+        "failed_assets": [
+          "Asset test failed: HTTPConnectionPool(host='localhost', port=8002): Read timed out. (read timeout=10)"
+        ]
+      }
+    },
+    {
+      "page": "Dietary Supplements",
+      "url": "http://localhost:8002/MotzzWebsite-main/services/analytical-testing-dietary-supplements.html",
+      "status": "FAIL",
+      "status_code": 0,
+      "issues": [
+        "Request failed: HTTPConnectionPool(host='localhost', port=8002): Read timed out. (read timeout=10)"
+      ],
+      "assets": {
+        "css_assets": 0,
+        "js_assets": 0,
+        "image_assets": 0,
+        "failed_assets": [
+          "Asset test failed: HTTPConnectionPool(host='localhost', port=8002): Read timed out. (read timeout=10)"
+        ]
+      }
+    },
+    {
+      "page": "Plant Tissue Sampling",
+      "url": "http://localhost:8002/MotzzWebsite-main/sampling-info/plant-tissue.html",
+      "status": "FAIL",
+      "status_code": 0,
+      "issues": [
+        "Request failed: HTTPConnectionPool(host='localhost', port=8002): Read timed out. (read timeout=10)"
+      ],
+      "assets": {
+        "css_assets": 0,
+        "js_assets": 0,
+        "image_assets": 0,
+        "failed_assets": [
+          "Asset test failed: HTTPConnectionPool(host='localhost', port=8002): Read timed out. (read timeout=10)"
+        ]
+      }
+    },
+    {
+      "page": "Soil Sampling",
+      "url": "http://localhost:8002/MotzzWebsite-main/sampling-info/soil.html",
+      "status": "FAIL",
+      "status_code": 0,
+      "issues": [
+        "Request failed: HTTPConnectionPool(host='localhost', port=8002): Read timed out. (read timeout=10)"
+      ],
+      "assets": {
+        "css_assets": 0,
+        "js_assets": 0,
+        "image_assets": 0,
+        "failed_assets": [
+          "Asset test failed: HTTPConnectionPool(host='localhost', port=8002): Read timed out. (read timeout=10)"
+        ]
+      }
+    },
+    {
+      "page": "Water Sampling",
+      "url": "http://localhost:8002/MotzzWebsite-main/sampling-info/water.html",
+      "status": "FAIL",
+      "status_code": 0,
+      "issues": [
+        "Request failed: HTTPConnectionPool(host='localhost', port=8002): Read timed out. (read timeout=10)"
+      ],
+      "assets": {
+        "css_assets": 0,
+        "js_assets": 0,
+        "image_assets": 0,
+        "failed_assets": [
+          "Asset test failed: HTTPConnectionPool(host='localhost', port=8002): Read timed out. (read timeout=10)"
+        ]
+      }
+    },
+    {
+      "page": "About Us (subdirectory)",
+      "url": "http://localhost:8002/MotzzWebsite-main/about-us/index.html",
+      "status": "FAIL",
+      "status_code": 0,
+      "issues": [
+        "Request failed: HTTPConnectionPool(host='localhost', port=8002): Read timed out. (read timeout=10)"
+      ],
+      "assets": {
+        "css_assets": 0,
+        "js_assets": 0,
+        "image_assets": 0,
+        "failed_assets": [
+          "Asset test failed: HTTPConnectionPool(host='localhost', port=8002): Read timed out. (read timeout=10)"
+        ]
+      }
+    },
+    {
+      "page": "Contact Us",
+      "url": "http://localhost:8002/MotzzWebsite-main/contact-us/index.html",
+      "status": "FAIL",
+      "status_code": 0,
+      "issues": [
+        "Request failed: HTTPConnectionPool(host='localhost', port=8002): Read timed out. (read timeout=10)"
+      ],
+      "assets": {
+        "css_assets": 0,
+        "js_assets": 0,
+        "image_assets": 0,
+        "failed_assets": [
+          "Asset test failed: HTTPConnectionPool(host='localhost', port=8002): Read timed out. (read timeout=10)"
+        ]
+      }
+    },
+    {
+      "page": "Forms (subdirectory)",
+      "url": "http://localhost:8002/MotzzWebsite-main/forms/index.html",
+      "status": "FAIL",
+      "status_code": 0,
+      "issues": [
+        "Request failed: HTTPConnectionPool(host='localhost', port=8002): Read timed out. (read timeout=10)"
+      ],
+      "assets": {
+        "css_assets": 0,
+        "js_assets": 0,
+        "image_assets": 0,
+        "failed_assets": [
+          "Asset test failed: HTTPConnectionPool(host='localhost', port=8002): Read timed out. (read timeout=10)"
+        ]
+      }
+    }
+  ],
+  "timestamp": "2025-07-30 18:18:14"
+}

@@ -1,0 +1,1535 @@
+{
+  "statistics": {
+    "total_files": 90,
+    "files_with_issues": 90,
+    "critical_issues": 13,
+    "warning_issues": 95,
+    "info_issues": 0
+  },
+  "issues": [
+    {
+      "file": "MotzzWebsite-main\\404-v1.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\404-v2.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\about-us.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\analytical-testing.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\footer.html",
+      "type": "missing_header_div",
+      "severity": "critical",
+      "description": "Missing header div element",
+      "fix_suggestion": "Add <div id=\"header\"></div> in appropriate location"
+    },
+    {
+      "file": "MotzzWebsite-main\\footer.html",
+      "type": "missing_footer_div",
+      "severity": "warning",
+      "description": "Missing footer div element",
+      "fix_suggestion": "Add <div id=\"footer\"></div> before closing body tag"
+    },
+    {
+      "file": "MotzzWebsite-main\\footer.html",
+      "type": "missing_navigation_script",
+      "severity": "critical",
+      "description": "Missing include-nav.js script",
+      "fix_suggestion": "Add <script src=\"[path]/assets/js/include-nav.js\"></script>"
+    },
+    {
+      "file": "MotzzWebsite-main\\footer.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\forms.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\header-fixed.html",
+      "type": "missing_header_div",
+      "severity": "critical",
+      "description": "Missing header div element",
+      "fix_suggestion": "Add <div id=\"header\"></div> in appropriate location"
+    },
+    {
+      "file": "MotzzWebsite-main\\header-fixed.html",
+      "type": "missing_footer_div",
+      "severity": "warning",
+      "description": "Missing footer div element",
+      "fix_suggestion": "Add <div id=\"footer\"></div> before closing body tag"
+    },
+    {
+      "file": "MotzzWebsite-main\\header-fixed.html",
+      "type": "missing_navigation_script",
+      "severity": "critical",
+      "description": "Missing include-nav.js script",
+      "fix_suggestion": "Add <script src=\"[path]/assets/js/include-nav.js\"></script>"
+    },
+    {
+      "file": "MotzzWebsite-main\\header-fixed.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\header.html",
+      "type": "missing_header_div",
+      "severity": "critical",
+      "description": "Missing header div element",
+      "fix_suggestion": "Add <div id=\"header\"></div> in appropriate location"
+    },
+    {
+      "file": "MotzzWebsite-main\\header.html",
+      "type": "missing_footer_div",
+      "severity": "warning",
+      "description": "Missing footer div element",
+      "fix_suggestion": "Add <div id=\"footer\"></div> before closing body tag"
+    },
+    {
+      "file": "MotzzWebsite-main\\header.html",
+      "type": "missing_navigation_script",
+      "severity": "critical",
+      "description": "Missing include-nav.js script",
+      "fix_suggestion": "Add <script src=\"[path]/assets/js/include-nav.js\"></script>"
+    },
+    {
+      "file": "MotzzWebsite-main\\header.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\index.html",
+      "type": "missing_header_div",
+      "severity": "critical",
+      "description": "Missing header div element",
+      "fix_suggestion": "Add <div id=\"header\"></div> in appropriate location"
+    },
+    {
+      "file": "MotzzWebsite-main\\index.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\license-accreditations.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\page-template.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\privacy-policy.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\professional-membership.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\subpage-footer.html",
+      "type": "missing_header_div",
+      "severity": "critical",
+      "description": "Missing header div element",
+      "fix_suggestion": "Add <div id=\"header\"></div> in appropriate location"
+    },
+    {
+      "file": "MotzzWebsite-main\\subpage-footer.html",
+      "type": "missing_footer_div",
+      "severity": "warning",
+      "description": "Missing footer div element",
+      "fix_suggestion": "Add <div id=\"footer\"></div> before closing body tag"
+    },
+    {
+      "file": "MotzzWebsite-main\\subpage-footer.html",
+      "type": "missing_navigation_script",
+      "severity": "critical",
+      "description": "Missing include-nav.js script",
+      "fix_suggestion": "Add <script src=\"[path]/assets/js/include-nav.js\"></script>"
+    },
+    {
+      "file": "MotzzWebsite-main\\subpage-footer.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\subpage-header.html",
+      "type": "missing_header_div",
+      "severity": "critical",
+      "description": "Missing header div element",
+      "fix_suggestion": "Add <div id=\"header\"></div> in appropriate location"
+    },
+    {
+      "file": "MotzzWebsite-main\\subpage-header.html",
+      "type": "missing_footer_div",
+      "severity": "warning",
+      "description": "Missing footer div element",
+      "fix_suggestion": "Add <div id=\"footer\"></div> before closing body tag"
+    },
+    {
+      "file": "MotzzWebsite-main\\subpage-header.html",
+      "type": "missing_navigation_script",
+      "severity": "critical",
+      "description": "Missing include-nav.js script",
+      "fix_suggestion": "Add <script src=\"[path]/assets/js/include-nav.js\"></script>"
+    },
+    {
+      "file": "MotzzWebsite-main\\subpage-header.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\terms-conditions.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\about-us\\analytical-testing.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\about-us\\forms.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\about-us\\index.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\about-us\\license-accreditations.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\about-us\\privacy-policy.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\about-us\\professional-membership.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\about-us\\terms-conditions.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\assets\\vendor\\boxicons\\dev.box-icon-element.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\assets\\vendor\\rellax\\demo.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\assets\\vendor\\rellax\\demo.html",
+      "type": "missing_js_file",
+      "severity": "critical",
+      "description": "Referenced JS file does not exist: //html5shiv.googlecode.com/svn/trunk/html5.js",
+      "fix_suggestion": "Check file path or create missing file"
+    },
+    {
+      "file": "MotzzWebsite-main\\assets\\vendor\\rellax\\demo.html",
+      "type": "missing_js_file",
+      "severity": "critical",
+      "description": "Referenced JS file does not exist: js/vendor/html5shiv.js",
+      "fix_suggestion": "Check file path or create missing file"
+    },
+    {
+      "file": "MotzzWebsite-main\\assets\\vendor\\rellax\\tests\\center.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\assets\\vendor\\rellax\\tests\\destroy.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\assets\\vendor\\rellax\\tests\\directions.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\assets\\vendor\\rellax\\tests\\horizontal.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\assets\\vendor\\rellax\\tests\\percentage.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\assets\\vendor\\rellax\\tests\\range.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\assets\\vendor\\rellax\\tests\\responsive-speeds.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\assets\\vendor\\rellax\\tests\\speed.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\assets\\vendor\\rellax\\tests\\style.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\assets\\vendor\\rellax\\tests\\wrapper.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\assets\\vendor\\smooth-scroll\\index.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\assets\\vendor\\smooth-scroll\\jump-to-top.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\assets\\vendor\\smooth-scroll\\speed.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\assets\\vendor\\smooth-scroll\\src\\copy\\index.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\assets\\vendor\\smooth-scroll\\src\\copy\\jump-to-top.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\assets\\vendor\\smooth-scroll\\src\\copy\\speed.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\assets\\vendor\\vanilla-tilt\\test\\index.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\contact-us\\about-us.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\contact-us\\analytical-testing.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\contact-us\\forms.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\contact-us\\index.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\contact-us\\license-accreditations.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\contact-us\\privacy-policy.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\contact-us\\professional-membership.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\contact-us\\terms-conditions.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\forms\\about-us.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\forms\\analytical-testing.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\forms\\index.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\forms\\license-accreditations.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\forms\\privacy-policy.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\forms\\professional-membership.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\forms\\terms-conditions.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\laboratorytesting\\about-us.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\laboratorytesting\\analytical-testing.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\laboratorytesting\\forms.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\laboratorytesting\\index.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\laboratorytesting\\license-accreditations.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\laboratorytesting\\privacy-policy.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\laboratorytesting\\professional-membership.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\laboratorytesting\\terms-conditions.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\sampling\\about-us.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\sampling\\analytical-testing.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\sampling\\forms.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\sampling\\index.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\sampling\\license-accreditations.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\sampling\\privacy-policy.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\sampling\\professional-membership.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\sampling\\terms-conditions.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\sampling-info\\plant-tissue.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\sampling-info\\soil.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\sampling-info\\water.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\services\\analytical-testing-agriculture.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\services\\analytical-testing-cannabis-hemp.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\services\\analytical-testing-construction-materials.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\services\\analytical-testing-dietary-supplements.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\services\\analytical-testing-environmental.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\services\\analytical-testing-fertilizer.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\services\\analytical-testing-microbiology.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\services\\analytical-testing-neutraceutical-vitamins.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\services\\analytical-testing-research-development.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\services\\agriculture\\compost.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\services\\agriculture\\fertilizer.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\services\\agriculture\\plant-tissue-petiole.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\services\\agriculture\\soil.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    },
+    {
+      "file": "MotzzWebsite-main\\services\\agriculture\\water.html",
+      "type": "absolute_asset_paths",
+      "severity": "warning",
+      "description": "Contains absolute asset paths that may break in subdirectories",
+      "fix_suggestion": "Convert to relative paths"
+    }
+  ],
+  "issues_by_type": {
+    "absolute_asset_paths": [
+      {
+        "file": "MotzzWebsite-main\\404-v1.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\404-v2.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\about-us.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\analytical-testing.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\footer.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\forms.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\header-fixed.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\header.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\index.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\license-accreditations.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\page-template.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\privacy-policy.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\professional-membership.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\subpage-footer.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\subpage-header.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\terms-conditions.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\about-us\\analytical-testing.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\about-us\\forms.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\about-us\\index.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\about-us\\license-accreditations.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\about-us\\privacy-policy.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\about-us\\professional-membership.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\about-us\\terms-conditions.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\assets\\vendor\\boxicons\\dev.box-icon-element.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\assets\\vendor\\rellax\\demo.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\assets\\vendor\\rellax\\tests\\center.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\assets\\vendor\\rellax\\tests\\destroy.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\assets\\vendor\\rellax\\tests\\directions.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\assets\\vendor\\rellax\\tests\\horizontal.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\assets\\vendor\\rellax\\tests\\percentage.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\assets\\vendor\\rellax\\tests\\range.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\assets\\vendor\\rellax\\tests\\responsive-speeds.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\assets\\vendor\\rellax\\tests\\speed.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\assets\\vendor\\rellax\\tests\\style.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\assets\\vendor\\rellax\\tests\\wrapper.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\assets\\vendor\\smooth-scroll\\index.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\assets\\vendor\\smooth-scroll\\jump-to-top.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\assets\\vendor\\smooth-scroll\\speed.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\assets\\vendor\\smooth-scroll\\src\\copy\\index.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\assets\\vendor\\smooth-scroll\\src\\copy\\jump-to-top.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\assets\\vendor\\smooth-scroll\\src\\copy\\speed.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\assets\\vendor\\vanilla-tilt\\test\\index.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\contact-us\\about-us.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\contact-us\\analytical-testing.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\contact-us\\forms.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\contact-us\\index.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\contact-us\\license-accreditations.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\contact-us\\privacy-policy.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\contact-us\\professional-membership.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\contact-us\\terms-conditions.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\forms\\about-us.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\forms\\analytical-testing.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\forms\\index.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\forms\\license-accreditations.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\forms\\privacy-policy.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\forms\\professional-membership.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\forms\\terms-conditions.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\laboratorytesting\\about-us.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\laboratorytesting\\analytical-testing.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\laboratorytesting\\forms.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\laboratorytesting\\index.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\laboratorytesting\\license-accreditations.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\laboratorytesting\\privacy-policy.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\laboratorytesting\\professional-membership.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\laboratorytesting\\terms-conditions.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\sampling\\about-us.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\sampling\\analytical-testing.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\sampling\\forms.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\sampling\\index.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\sampling\\license-accreditations.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\sampling\\privacy-policy.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\sampling\\professional-membership.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\sampling\\terms-conditions.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\sampling-info\\plant-tissue.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\sampling-info\\soil.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\sampling-info\\water.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\services\\analytical-testing-agriculture.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\services\\analytical-testing-cannabis-hemp.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\services\\analytical-testing-construction-materials.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\services\\analytical-testing-dietary-supplements.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\services\\analytical-testing-environmental.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\services\\analytical-testing-fertilizer.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\services\\analytical-testing-microbiology.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\services\\analytical-testing-neutraceutical-vitamins.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\services\\analytical-testing-research-development.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\services\\agriculture\\compost.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\services\\agriculture\\fertilizer.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\services\\agriculture\\plant-tissue-petiole.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\services\\agriculture\\soil.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      },
+      {
+        "file": "MotzzWebsite-main\\services\\agriculture\\water.html",
+        "type": "absolute_asset_paths",
+        "severity": "warning",
+        "description": "Contains absolute asset paths that may break in subdirectories",
+        "fix_suggestion": "Convert to relative paths"
+      }
+    ],
+    "missing_header_div": [
+      {
+        "file": "MotzzWebsite-main\\footer.html",
+        "type": "missing_header_div",
+        "severity": "critical",
+        "description": "Missing header div element",
+        "fix_suggestion": "Add <div id=\"header\"></div> in appropriate location"
+      },
+      {
+        "file": "MotzzWebsite-main\\header-fixed.html",
+        "type": "missing_header_div",
+        "severity": "critical",
+        "description": "Missing header div element",
+        "fix_suggestion": "Add <div id=\"header\"></div> in appropriate location"
+      },
+      {
+        "file": "MotzzWebsite-main\\header.html",
+        "type": "missing_header_div",
+        "severity": "critical",
+        "description": "Missing header div element",
+        "fix_suggestion": "Add <div id=\"header\"></div> in appropriate location"
+      },
+      {
+        "file": "MotzzWebsite-main\\index.html",
+        "type": "missing_header_div",
+        "severity": "critical",
+        "description": "Missing header div element",
+        "fix_suggestion": "Add <div id=\"header\"></div> in appropriate location"
+      },
+      {
+        "file": "MotzzWebsite-main\\subpage-footer.html",
+        "type": "missing_header_div",
+        "severity": "critical",
+        "description": "Missing header div element",
+        "fix_suggestion": "Add <div id=\"header\"></div> in appropriate location"
+      },
+      {
+        "file": "MotzzWebsite-main\\subpage-header.html",
+        "type": "missing_header_div",
+        "severity": "critical",
+        "description": "Missing header div element",
+        "fix_suggestion": "Add <div id=\"header\"></div> in appropriate location"
+      }
+    ],
+    "missing_footer_div": [
+      {
+        "file": "MotzzWebsite-main\\footer.html",
+        "type": "missing_footer_div",
+        "severity": "warning",
+        "description": "Missing footer div element",
+        "fix_suggestion": "Add <div id=\"footer\"></div> before closing body tag"
+      },
+      {
+        "file": "MotzzWebsite-main\\header-fixed.html",
+        "type": "missing_footer_div",
+        "severity": "warning",
+        "description": "Missing footer div element",
+        "fix_suggestion": "Add <div id=\"footer\"></div> before closing body tag"
+      },
+      {
+        "file": "MotzzWebsite-main\\header.html",
+        "type": "missing_footer_div",
+        "severity": "warning",
+        "description": "Missing footer div element",
+        "fix_suggestion": "Add <div id=\"footer\"></div> before closing body tag"
+      },
+      {
+        "file": "MotzzWebsite-main\\subpage-footer.html",
+        "type": "missing_footer_div",
+        "severity": "warning",
+        "description": "Missing footer div element",
+        "fix_suggestion": "Add <div id=\"footer\"></div> before closing body tag"
+      },
+      {
+        "file": "MotzzWebsite-main\\subpage-header.html",
+        "type": "missing_footer_div",
+        "severity": "warning",
+        "description": "Missing footer div element",
+        "fix_suggestion": "Add <div id=\"footer\"></div> before closing body tag"
+      }
+    ],
+    "missing_navigation_script": [
+      {
+        "file": "MotzzWebsite-main\\footer.html",
+        "type": "missing_navigation_script",
+        "severity": "critical",
+        "description": "Missing include-nav.js script",
+        "fix_suggestion": "Add <script src=\"[path]/assets/js/include-nav.js\"></script>"
+      },
+      {
+        "file": "MotzzWebsite-main\\header-fixed.html",
+        "type": "missing_navigation_script",
+        "severity": "critical",
+        "description": "Missing include-nav.js script",
+        "fix_suggestion": "Add <script src=\"[path]/assets/js/include-nav.js\"></script>"
+      },
+      {
+        "file": "MotzzWebsite-main\\header.html",
+        "type": "missing_navigation_script",
+        "severity": "critical",
+        "description": "Missing include-nav.js script",
+        "fix_suggestion": "Add <script src=\"[path]/assets/js/include-nav.js\"></script>"
+      },
+      {
+        "file": "MotzzWebsite-main\\subpage-footer.html",
+        "type": "missing_navigation_script",
+        "severity": "critical",
+        "description": "Missing include-nav.js script",
+        "fix_suggestion": "Add <script src=\"[path]/assets/js/include-nav.js\"></script>"
+      },
+      {
+        "file": "MotzzWebsite-main\\subpage-header.html",
+        "type": "missing_navigation_script",
+        "severity": "critical",
+        "description": "Missing include-nav.js script",
+        "fix_suggestion": "Add <script src=\"[path]/assets/js/include-nav.js\"></script>"
+      }
+    ],
+    "missing_js_file": [
+      {
+        "file": "MotzzWebsite-main\\assets\\vendor\\rellax\\demo.html",
+        "type": "missing_js_file",
+        "severity": "critical",
+        "description": "Referenced JS file does not exist: //html5shiv.googlecode.com/svn/trunk/html5.js",
+        "fix_suggestion": "Check file path or create missing file"
+      },
+      {
+        "file": "MotzzWebsite-main\\assets\\vendor\\rellax\\demo.html",
+        "type": "missing_js_file",
+        "severity": "critical",
+        "description": "Referenced JS file does not exist: js/vendor/html5shiv.js",
+        "fix_suggestion": "Check file path or create missing file"
+      }
+    ]
+  }
+}

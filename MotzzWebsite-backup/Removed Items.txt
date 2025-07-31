@@ -1,0 +1,17 @@
+          <div class="col">
+            <div class="card card-body card-hover bg-light border-0">
+              
+                <img src="/assets/img/6471.01_ILAC MRA-A2LA Accredited Symbol.jpg" class="d-block mb-4" width="200" alt="ISO 17025: 2017">
+          
+              <p class="mb-0">ISO/IEC 17025: 2017</p>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-body card-hover bg-light border-0">
+              <a href="https://agriculture.az.gov/">
+              <img src="/assets/img/azda-logo.jpg" class="d-block mb-4" width="100" alt="Arizona Department of Agriculture">
+              </a>
+              <p class="mb-0">AZ Department of Agriculture</p>
+            </div>
+          </div>

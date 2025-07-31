@@ -1,0 +1,536 @@
+{
+  "404-v1.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js"
+  ],
+  "404-v2.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "about-us.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js"
+  ],
+  "about-us\\analytical-testing.html": [
+    "MISSING CSS: ..../assets/vendor/boxicons/css/boxicons.min.css -> MotzzWebsite-main\\about-us\\....\\assets\\vendor\\boxicons\\css\\boxicons.min.css",
+    "MISSING CSS: ..../assets/vendor/swiper/swiper-bundle.min.css -> MotzzWebsite-main\\about-us\\....\\assets\\vendor\\swiper\\swiper-bundle.min.css",
+    "MISSING CSS: ..../assets/css/theme.min.css -> MotzzWebsite-main\\about-us\\....\\assets\\css\\theme.min.css",
+    "MISSING CSS: ..../assets/css/site.css -> MotzzWebsite-main\\about-us\\....\\assets\\css\\site.css",
+    "MISSING JS: ..../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js -> MotzzWebsite-main\\about-us\\....\\assets\\vendor\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+    "MISSING JS: ..../assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js -> MotzzWebsite-main\\about-us\\....\\assets\\vendor\\smooth-scroll\\dist\\smooth-scroll.polyfills.min.js",
+    "MISSING JS: ..../assets/vendor/rellax/rellax.min.js -> MotzzWebsite-main\\about-us\\....\\assets\\vendor\\rellax\\rellax.min.js",
+    "MISSING JS: ..../assets/vendor/@lottiefiles/lottie-player/dist/lottie-player.js -> MotzzWebsite-main\\about-us\\....\\assets\\vendor\\@lottiefiles\\lottie-player\\dist\\lottie-player.js",
+    "MISSING JS: ..../assets/vendor/swiper/swiper-bundle.min.js -> MotzzWebsite-main\\about-us\\....\\assets\\vendor\\swiper\\swiper-bundle.min.js",
+    "MISSING JS: ..../assets/js/theme.min.js -> MotzzWebsite-main\\about-us\\....\\assets\\js\\theme.min.js",
+    "MISSING JS: ..../assets/js/include-nav.js -> MotzzWebsite-main\\about-us\\....\\assets\\js\\include-nav.js",
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "about-us\\forms.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "about-us\\index.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "about-us\\license-accreditations.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "about-us\\privacy-policy.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "about-us\\professional-membership.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "about-us\\terms-conditions.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "analytical-testing.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js"
+  ],
+  "assets\\vendor\\boxicons\\dev.box-icon-element.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "MISSING include-nav.js: Required for dynamic header/footer"
+  ],
+  "assets\\vendor\\rellax\\demo.html": [
+    "MISSING JS: //html5shiv.googlecode.com/svn/trunk/html5.js -> \\\\html5shiv.googlecode.com\\svn\\trunk\\html5.js",
+    "MISSING JS: js/vendor/html5shiv.js -> MotzzWebsite-main\\assets\\vendor\\rellax\\js\\vendor\\html5shiv.js",
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "MISSING include-nav.js: Required for dynamic header/footer"
+  ],
+  "assets\\vendor\\rellax\\tests\\center.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "MISSING include-nav.js: Required for dynamic header/footer"
+  ],
+  "assets\\vendor\\rellax\\tests\\destroy.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "MISSING include-nav.js: Required for dynamic header/footer"
+  ],
+  "assets\\vendor\\rellax\\tests\\directions.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "MISSING include-nav.js: Required for dynamic header/footer"
+  ],
+  "assets\\vendor\\rellax\\tests\\horizontal.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "MISSING include-nav.js: Required for dynamic header/footer"
+  ],
+  "assets\\vendor\\rellax\\tests\\percentage.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "MISSING include-nav.js: Required for dynamic header/footer"
+  ],
+  "assets\\vendor\\rellax\\tests\\range.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "MISSING include-nav.js: Required for dynamic header/footer"
+  ],
+  "assets\\vendor\\rellax\\tests\\responsive-speeds.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "MISSING include-nav.js: Required for dynamic header/footer"
+  ],
+  "assets\\vendor\\rellax\\tests\\speed.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "MISSING include-nav.js: Required for dynamic header/footer"
+  ],
+  "assets\\vendor\\rellax\\tests\\style.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "MISSING include-nav.js: Required for dynamic header/footer"
+  ],
+  "assets\\vendor\\rellax\\tests\\wrapper.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "MISSING include-nav.js: Required for dynamic header/footer"
+  ],
+  "assets\\vendor\\smooth-scroll\\index.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "MISSING include-nav.js: Required for dynamic header/footer"
+  ],
+  "assets\\vendor\\smooth-scroll\\jump-to-top.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "MISSING include-nav.js: Required for dynamic header/footer"
+  ],
+  "assets\\vendor\\smooth-scroll\\speed.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "MISSING include-nav.js: Required for dynamic header/footer"
+  ],
+  "assets\\vendor\\smooth-scroll\\src\\copy\\index.html": [
+    "MISSING JS: ../../../../..../../../../../assets/js/include-nav.js -> ..\\assets\\js\\include-nav.js",
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "MISSING include-nav.js: Required for dynamic header/footer"
+  ],
+  "assets\\vendor\\smooth-scroll\\src\\copy\\jump-to-top.html": [
+    "MISSING JS: ../../../../..../../../../../assets/js/include-nav.js -> ..\\assets\\js\\include-nav.js",
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "MISSING include-nav.js: Required for dynamic header/footer"
+  ],
+  "assets\\vendor\\smooth-scroll\\src\\copy\\speed.html": [
+    "MISSING JS: ../../../../..../../../../../assets/js/include-nav.js -> ..\\assets\\js\\include-nav.js",
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "MISSING include-nav.js: Required for dynamic header/footer"
+  ],
+  "assets\\vendor\\vanilla-tilt\\test\\index.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "MISSING include-nav.js: Required for dynamic header/footer"
+  ],
+  "contact-us\\about-us.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "contact-us\\analytical-testing.html": [
+    "MISSING CSS: ..../assets/vendor/boxicons/css/boxicons.min.css -> MotzzWebsite-main\\contact-us\\....\\assets\\vendor\\boxicons\\css\\boxicons.min.css",
+    "MISSING CSS: ..../assets/vendor/swiper/swiper-bundle.min.css -> MotzzWebsite-main\\contact-us\\....\\assets\\vendor\\swiper\\swiper-bundle.min.css",
+    "MISSING CSS: ..../assets/css/theme.min.css -> MotzzWebsite-main\\contact-us\\....\\assets\\css\\theme.min.css",
+    "MISSING CSS: ..../assets/css/site.css -> MotzzWebsite-main\\contact-us\\....\\assets\\css\\site.css",
+    "MISSING JS: ..../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js -> MotzzWebsite-main\\contact-us\\....\\assets\\vendor\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+    "MISSING JS: ..../assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js -> MotzzWebsite-main\\contact-us\\....\\assets\\vendor\\smooth-scroll\\dist\\smooth-scroll.polyfills.min.js",
+    "MISSING JS: ..../assets/vendor/rellax/rellax.min.js -> MotzzWebsite-main\\contact-us\\....\\assets\\vendor\\rellax\\rellax.min.js",
+    "MISSING JS: ..../assets/vendor/@lottiefiles/lottie-player/dist/lottie-player.js -> MotzzWebsite-main\\contact-us\\....\\assets\\vendor\\@lottiefiles\\lottie-player\\dist\\lottie-player.js",
+    "MISSING JS: ..../assets/vendor/swiper/swiper-bundle.min.js -> MotzzWebsite-main\\contact-us\\....\\assets\\vendor\\swiper\\swiper-bundle.min.js",
+    "MISSING JS: ..../assets/js/theme.min.js -> MotzzWebsite-main\\contact-us\\....\\assets\\js\\theme.min.js",
+    "MISSING JS: ..../assets/js/include-nav.js -> MotzzWebsite-main\\contact-us\\....\\assets\\js\\include-nav.js",
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "contact-us\\forms.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "contact-us\\index.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "contact-us\\license-accreditations.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "contact-us\\privacy-policy.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "contact-us\\professional-membership.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "contact-us\\terms-conditions.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "footer.html": [
+    "NO NAVIGATION: Missing header/nav structure"
+  ],
+  "forms.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js"
+  ],
+  "forms\\about-us.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "forms\\analytical-testing.html": [
+    "MISSING CSS: ..../assets/vendor/boxicons/css/boxicons.min.css -> MotzzWebsite-main\\forms\\....\\assets\\vendor\\boxicons\\css\\boxicons.min.css",
+    "MISSING CSS: ..../assets/vendor/swiper/swiper-bundle.min.css -> MotzzWebsite-main\\forms\\....\\assets\\vendor\\swiper\\swiper-bundle.min.css",
+    "MISSING CSS: ..../assets/css/theme.min.css -> MotzzWebsite-main\\forms\\....\\assets\\css\\theme.min.css",
+    "MISSING CSS: ..../assets/css/site.css -> MotzzWebsite-main\\forms\\....\\assets\\css\\site.css",
+    "MISSING JS: ..../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js -> MotzzWebsite-main\\forms\\....\\assets\\vendor\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+    "MISSING JS: ..../assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js -> MotzzWebsite-main\\forms\\....\\assets\\vendor\\smooth-scroll\\dist\\smooth-scroll.polyfills.min.js",
+    "MISSING JS: ..../assets/vendor/rellax/rellax.min.js -> MotzzWebsite-main\\forms\\....\\assets\\vendor\\rellax\\rellax.min.js",
+    "MISSING JS: ..../assets/vendor/@lottiefiles/lottie-player/dist/lottie-player.js -> MotzzWebsite-main\\forms\\....\\assets\\vendor\\@lottiefiles\\lottie-player\\dist\\lottie-player.js",
+    "MISSING JS: ..../assets/vendor/swiper/swiper-bundle.min.js -> MotzzWebsite-main\\forms\\....\\assets\\vendor\\swiper\\swiper-bundle.min.js",
+    "MISSING JS: ..../assets/js/theme.min.js -> MotzzWebsite-main\\forms\\....\\assets\\js\\theme.min.js",
+    "MISSING JS: ..../assets/js/include-nav.js -> MotzzWebsite-main\\forms\\....\\assets\\js\\include-nav.js",
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "forms\\index.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "forms\\license-accreditations.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "forms\\privacy-policy.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "forms\\professional-membership.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "forms\\terms-conditions.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "header-fixed.html": [
+    "NO FOOTER: Missing footer structure"
+  ],
+  "header.html": [
+    "NO FOOTER: Missing footer structure"
+  ],
+  "index.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js"
+  ],
+  "laboratorytesting\\about-us.html": [
+    "MISSING CSS: ..../assets/vendor/boxicons/css/boxicons.min.css -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\vendor\\boxicons\\css\\boxicons.min.css",
+    "MISSING CSS: ..../assets/vendor/swiper/swiper-bundle.min.css -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\vendor\\swiper\\swiper-bundle.min.css",
+    "MISSING CSS: ..../assets/css/theme.min.css -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\css\\theme.min.css",
+    "MISSING CSS: ..../assets/css/site.css -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\css\\site.css",
+    "MISSING JS: ..../assets/js/include-nav.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\js\\include-nav.js",
+    "MISSING JS: ..../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\vendor\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+    "MISSING JS: ..../assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\vendor\\smooth-scroll\\dist\\smooth-scroll.polyfills.min.js",
+    "MISSING JS: ..../assets/vendor/rellax/rellax.min.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\vendor\\rellax\\rellax.min.js",
+    "MISSING JS: ..../assets/vendor/@lottiefiles/lottie-player/dist/lottie-player.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\vendor\\@lottiefiles\\lottie-player\\dist\\lottie-player.js",
+    "MISSING JS: ..../assets/vendor/swiper/swiper-bundle.min.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\vendor\\swiper\\swiper-bundle.min.js",
+    "MISSING JS: ..../assets/js/theme.min.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\js\\theme.min.js",
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "laboratorytesting\\analytical-testing.html": [
+    "MISSING CSS: ..../assets/vendor/boxicons/css/boxicons.min.css -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\vendor\\boxicons\\css\\boxicons.min.css",
+    "MISSING CSS: ..../assets/vendor/swiper/swiper-bundle.min.css -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\vendor\\swiper\\swiper-bundle.min.css",
+    "MISSING CSS: ..../assets/css/theme.min.css -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\css\\theme.min.css",
+    "MISSING CSS: ..../assets/css/site.css -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\css\\site.css",
+    "MISSING JS: ..../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\vendor\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+    "MISSING JS: ..../assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\vendor\\smooth-scroll\\dist\\smooth-scroll.polyfills.min.js",
+    "MISSING JS: ..../assets/vendor/rellax/rellax.min.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\vendor\\rellax\\rellax.min.js",
+    "MISSING JS: ..../assets/vendor/@lottiefiles/lottie-player/dist/lottie-player.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\vendor\\@lottiefiles\\lottie-player\\dist\\lottie-player.js",
+    "MISSING JS: ..../assets/vendor/swiper/swiper-bundle.min.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\vendor\\swiper\\swiper-bundle.min.js",
+    "MISSING JS: ..../assets/js/theme.min.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\js\\theme.min.js",
+    "MISSING JS: ..../assets/js/include-nav.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\js\\include-nav.js",
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "laboratorytesting\\forms.html": [
+    "MISSING CSS: ..../assets/vendor/boxicons/css/boxicons.min.css -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\vendor\\boxicons\\css\\boxicons.min.css",
+    "MISSING CSS: ..../assets/vendor/swiper/swiper-bundle.min.css -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\vendor\\swiper\\swiper-bundle.min.css",
+    "MISSING CSS: ..../assets/css/theme.min.css -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\css\\theme.min.css",
+    "MISSING CSS: ..../assets/css/site.css -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\css\\site.css",
+    "MISSING JS: ..../assets/js/include-nav.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\js\\include-nav.js",
+    "MISSING JS: ..../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\vendor\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+    "MISSING JS: ..../assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\vendor\\smooth-scroll\\dist\\smooth-scroll.polyfills.min.js",
+    "MISSING JS: ..../assets/vendor/rellax/rellax.min.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\vendor\\rellax\\rellax.min.js",
+    "MISSING JS: ..../assets/vendor/@lottiefiles/lottie-player/dist/lottie-player.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\vendor\\@lottiefiles\\lottie-player\\dist\\lottie-player.js",
+    "MISSING JS: ..../assets/vendor/swiper/swiper-bundle.min.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\vendor\\swiper\\swiper-bundle.min.js",
+    "MISSING JS: ..../assets/js/theme.min.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\js\\theme.min.js",
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "laboratorytesting\\index.html": [
+    "MISSING CSS: ..../assets/vendor/boxicons/css/boxicons.min.css -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\vendor\\boxicons\\css\\boxicons.min.css",
+    "MISSING CSS: ..../assets/vendor/swiper/swiper-bundle.min.css -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\vendor\\swiper\\swiper-bundle.min.css",
+    "MISSING CSS: ..../assets/css/theme.min.css -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\css\\theme.min.css",
+    "MISSING CSS: ..../assets/css/site.css -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\css\\site.css",
+    "MISSING JS: ..../assets/js/include-nav.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\js\\include-nav.js",
+    "MISSING JS: ..../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\vendor\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+    "MISSING JS: ..../assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\vendor\\smooth-scroll\\dist\\smooth-scroll.polyfills.min.js",
+    "MISSING JS: ..../assets/vendor/rellax/rellax.min.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\vendor\\rellax\\rellax.min.js",
+    "MISSING JS: ..../assets/vendor/@lottiefiles/lottie-player/dist/lottie-player.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\vendor\\@lottiefiles\\lottie-player\\dist\\lottie-player.js",
+    "MISSING JS: ..../assets/vendor/swiper/swiper-bundle.min.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\vendor\\swiper\\swiper-bundle.min.js",
+    "MISSING JS: ..../assets/js/theme.min.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\js\\theme.min.js",
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "laboratorytesting\\license-accreditations.html": [
+    "MISSING CSS: ..../assets/vendor/boxicons/css/boxicons.min.css -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\vendor\\boxicons\\css\\boxicons.min.css",
+    "MISSING CSS: ..../assets/vendor/swiper/swiper-bundle.min.css -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\vendor\\swiper\\swiper-bundle.min.css",
+    "MISSING CSS: ..../assets/css/theme.min.css -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\css\\theme.min.css",
+    "MISSING CSS: ..../assets/css/site.css -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\css\\site.css",
+    "MISSING JS: ..../assets/js/include-nav.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\js\\include-nav.js",
+    "MISSING JS: ..../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\vendor\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+    "MISSING JS: ..../assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\vendor\\smooth-scroll\\dist\\smooth-scroll.polyfills.min.js",
+    "MISSING JS: ..../assets/vendor/rellax/rellax.min.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\vendor\\rellax\\rellax.min.js",
+    "MISSING JS: ..../assets/vendor/@lottiefiles/lottie-player/dist/lottie-player.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\vendor\\@lottiefiles\\lottie-player\\dist\\lottie-player.js",
+    "MISSING JS: ..../assets/vendor/swiper/swiper-bundle.min.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\vendor\\swiper\\swiper-bundle.min.js",
+    "MISSING JS: ..../assets/js/theme.min.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\js\\theme.min.js",
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "laboratorytesting\\privacy-policy.html": [
+    "MISSING CSS: ..../assets/css/theme.min.css -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\css\\theme.min.css",
+    "MISSING CSS: ..../assets/css/site.css -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\css\\site.css",
+    "MISSING JS: ..../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\vendor\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+    "MISSING JS: ..../assets/js/theme.min.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\js\\theme.min.js",
+    "MISSING JS: ..../assets/js/include-nav.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\js\\include-nav.js",
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "laboratorytesting\\professional-membership.html": [
+    "MISSING CSS: ..../assets/vendor/boxicons/css/boxicons.min.css -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\vendor\\boxicons\\css\\boxicons.min.css",
+    "MISSING CSS: ..../assets/vendor/swiper/swiper-bundle.min.css -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\vendor\\swiper\\swiper-bundle.min.css",
+    "MISSING CSS: ..../assets/css/theme.min.css -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\css\\theme.min.css",
+    "MISSING CSS: ..../assets/css/site.css -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\css\\site.css",
+    "MISSING JS: ..../assets/js/include-nav.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\js\\include-nav.js",
+    "MISSING JS: ..../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\vendor\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+    "MISSING JS: ..../assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\vendor\\smooth-scroll\\dist\\smooth-scroll.polyfills.min.js",
+    "MISSING JS: ..../assets/vendor/rellax/rellax.min.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\vendor\\rellax\\rellax.min.js",
+    "MISSING JS: ..../assets/vendor/@lottiefiles/lottie-player/dist/lottie-player.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\vendor\\@lottiefiles\\lottie-player\\dist\\lottie-player.js",
+    "MISSING JS: ..../assets/vendor/swiper/swiper-bundle.min.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\vendor\\swiper\\swiper-bundle.min.js",
+    "MISSING JS: ..../assets/js/theme.min.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\js\\theme.min.js",
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "laboratorytesting\\terms-conditions.html": [
+    "MISSING CSS: ..../assets/css/theme.min.css -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\css\\theme.min.css",
+    "MISSING CSS: ..../assets/css/site.css -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\css\\site.css",
+    "MISSING JS: ..../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\vendor\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+    "MISSING JS: ..../assets/js/theme.min.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\js\\theme.min.js",
+    "MISSING JS: ..../assets/js/include-nav.js -> MotzzWebsite-main\\laboratorytesting\\....\\assets\\js\\include-nav.js",
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "license-accreditations.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js"
+  ],
+  "page-template.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js"
+  ],
+  "privacy-policy.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js"
+  ],
+  "professional-membership.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js"
+  ],
+  "sampling-info\\plant-tissue.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "BROKEN LINK: ../sampling-info/sampling-information-water.html -> MotzzWebsite-main\\sampling-info\\sampling-information-water.html",
+    "BROKEN LINK: ../sampling-info/sampling-information-soil.html -> MotzzWebsite-main\\sampling-info\\sampling-information-soil.html"
+  ],
+  "sampling-info\\soil.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "BROKEN LINK: ../sampling-info/sampling-information-water.html -> MotzzWebsite-main\\sampling-info\\sampling-information-water.html",
+    "BROKEN LINK: ../sampling-info/sampling-information-soil.html -> MotzzWebsite-main\\sampling-info\\sampling-information-soil.html"
+  ],
+  "sampling-info\\water.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "BROKEN LINK: ../sampling-info/sampling-information-water.html -> MotzzWebsite-main\\sampling-info\\sampling-information-water.html",
+    "BROKEN LINK: ../sampling-info/sampling-information-soil.html -> MotzzWebsite-main\\sampling-info\\sampling-information-soil.html"
+  ],
+  "sampling\\about-us.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "sampling\\analytical-testing.html": [
+    "MISSING CSS: ..../assets/vendor/boxicons/css/boxicons.min.css -> MotzzWebsite-main\\sampling\\....\\assets\\vendor\\boxicons\\css\\boxicons.min.css",
+    "MISSING CSS: ..../assets/vendor/swiper/swiper-bundle.min.css -> MotzzWebsite-main\\sampling\\....\\assets\\vendor\\swiper\\swiper-bundle.min.css",
+    "MISSING CSS: ..../assets/css/theme.min.css -> MotzzWebsite-main\\sampling\\....\\assets\\css\\theme.min.css",
+    "MISSING CSS: ..../assets/css/site.css -> MotzzWebsite-main\\sampling\\....\\assets\\css\\site.css",
+    "MISSING JS: ..../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js -> MotzzWebsite-main\\sampling\\....\\assets\\vendor\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+    "MISSING JS: ..../assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js -> MotzzWebsite-main\\sampling\\....\\assets\\vendor\\smooth-scroll\\dist\\smooth-scroll.polyfills.min.js",
+    "MISSING JS: ..../assets/vendor/rellax/rellax.min.js -> MotzzWebsite-main\\sampling\\....\\assets\\vendor\\rellax\\rellax.min.js",
+    "MISSING JS: ..../assets/vendor/@lottiefiles/lottie-player/dist/lottie-player.js -> MotzzWebsite-main\\sampling\\....\\assets\\vendor\\@lottiefiles\\lottie-player\\dist\\lottie-player.js",
+    "MISSING JS: ..../assets/vendor/swiper/swiper-bundle.min.js -> MotzzWebsite-main\\sampling\\....\\assets\\vendor\\swiper\\swiper-bundle.min.js",
+    "MISSING JS: ..../assets/js/theme.min.js -> MotzzWebsite-main\\sampling\\....\\assets\\js\\theme.min.js",
+    "MISSING JS: ..../assets/js/include-nav.js -> MotzzWebsite-main\\sampling\\....\\assets\\js\\include-nav.js",
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "sampling\\forms.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "sampling\\index.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "sampling\\license-accreditations.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "sampling\\privacy-policy.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "sampling\\professional-membership.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "sampling\\terms-conditions.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "services\\agriculture\\compost.html": [
+    "MISSING CSS: ../..../../assets/vendor/boxicons/css/boxicons.min.css -> MotzzWebsite-main\\services\\assets\\vendor\\boxicons\\css\\boxicons.min.css",
+    "MISSING CSS: ../..../../assets/vendor/swiper/swiper-bundle.min.css -> MotzzWebsite-main\\services\\assets\\vendor\\swiper\\swiper-bundle.min.css",
+    "MISSING CSS: ../../../assets/css/theme.min.css -> assets\\css\\theme.min.css",
+    "MISSING CSS: ../../../assets/css/site.css -> assets\\css\\site.css",
+    "MISSING JS: ../..../../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js -> MotzzWebsite-main\\services\\assets\\vendor\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+    "MISSING JS: ../..../../assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js -> MotzzWebsite-main\\services\\assets\\vendor\\smooth-scroll\\dist\\smooth-scroll.polyfills.min.js",
+    "MISSING JS: ../..../../assets/vendor/rellax/rellax.min.js -> MotzzWebsite-main\\services\\assets\\vendor\\rellax\\rellax.min.js",
+    "MISSING JS: ../..../../assets/vendor/@lottiefiles/lottie-player/dist/lottie-player.js -> MotzzWebsite-main\\services\\assets\\vendor\\@lottiefiles\\lottie-player\\dist\\lottie-player.js",
+    "MISSING JS: ../..../../assets/vendor/swiper/swiper-bundle.min.js -> MotzzWebsite-main\\services\\assets\\vendor\\swiper\\swiper-bundle.min.js",
+    "MISSING JS: ../..../../assets/js/theme.min.js -> MotzzWebsite-main\\services\\assets\\js\\theme.min.js",
+    "MISSING JS: ../..../../assets/js/include-nav.js -> MotzzWebsite-main\\services\\assets\\js\\include-nav.js",
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js",
+    "MISSING include-nav.js: Required for dynamic header/footer"
+  ],
+  "services\\agriculture\\fertilizer.html": [
+    "MISSING CSS: ../..../../assets/vendor/boxicons/css/boxicons.min.css -> MotzzWebsite-main\\services\\assets\\vendor\\boxicons\\css\\boxicons.min.css",
+    "MISSING CSS: ../..../../assets/vendor/swiper/swiper-bundle.min.css -> MotzzWebsite-main\\services\\assets\\vendor\\swiper\\swiper-bundle.min.css",
+    "MISSING CSS: ../../../assets/css/theme.min.css -> assets\\css\\theme.min.css",
+    "MISSING CSS: ../../../assets/css/site.css -> assets\\css\\site.css",
+    "MISSING JS: ../..../../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js -> MotzzWebsite-main\\services\\assets\\vendor\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+    "MISSING JS: ../..../../assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js -> MotzzWebsite-main\\services\\assets\\vendor\\smooth-scroll\\dist\\smooth-scroll.polyfills.min.js",
+    "MISSING JS: ../..../../assets/vendor/rellax/rellax.min.js -> MotzzWebsite-main\\services\\assets\\vendor\\rellax\\rellax.min.js",
+    "MISSING JS: ../..../../assets/vendor/@lottiefiles/lottie-player/dist/lottie-player.js -> MotzzWebsite-main\\services\\assets\\vendor\\@lottiefiles\\lottie-player\\dist\\lottie-player.js",
+    "MISSING JS: ../..../../assets/vendor/swiper/swiper-bundle.min.js -> MotzzWebsite-main\\services\\assets\\vendor\\swiper\\swiper-bundle.min.js",
+    "MISSING JS: ../..../../assets/js/theme.min.js -> MotzzWebsite-main\\services\\assets\\js\\theme.min.js",
+    "MISSING JS: ../..../../assets/js/include-nav.js -> MotzzWebsite-main\\services\\assets\\js\\include-nav.js",
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js",
+    "MISSING include-nav.js: Required for dynamic header/footer"
+  ],
+  "services\\agriculture\\plant-tissue-petiole.html": [
+    "MISSING CSS: ../..../../assets/vendor/boxicons/css/boxicons.min.css -> MotzzWebsite-main\\services\\assets\\vendor\\boxicons\\css\\boxicons.min.css",
+    "MISSING CSS: ../..../../assets/vendor/swiper/swiper-bundle.min.css -> MotzzWebsite-main\\services\\assets\\vendor\\swiper\\swiper-bundle.min.css",
+    "MISSING CSS: ../../../assets/css/theme.min.css -> assets\\css\\theme.min.css",
+    "MISSING CSS: ../../../assets/css/site.css -> assets\\css\\site.css",
+    "MISSING JS: ../..../../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js -> MotzzWebsite-main\\services\\assets\\vendor\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+    "MISSING JS: ../..../../assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js -> MotzzWebsite-main\\services\\assets\\vendor\\smooth-scroll\\dist\\smooth-scroll.polyfills.min.js",
+    "MISSING JS: ../..../../assets/vendor/rellax/rellax.min.js -> MotzzWebsite-main\\services\\assets\\vendor\\rellax\\rellax.min.js",
+    "MISSING JS: ../..../../assets/vendor/@lottiefiles/lottie-player/dist/lottie-player.js -> MotzzWebsite-main\\services\\assets\\vendor\\@lottiefiles\\lottie-player\\dist\\lottie-player.js",
+    "MISSING JS: ../..../../assets/vendor/swiper/swiper-bundle.min.js -> MotzzWebsite-main\\services\\assets\\vendor\\swiper\\swiper-bundle.min.js",
+    "MISSING JS: ../..../../assets/js/theme.min.js -> MotzzWebsite-main\\services\\assets\\js\\theme.min.js",
+    "MISSING JS: ../..../../assets/js/include-nav.js -> MotzzWebsite-main\\services\\assets\\js\\include-nav.js",
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js",
+    "MISSING include-nav.js: Required for dynamic header/footer"
+  ],
+  "services\\agriculture\\soil.html": [
+    "MISSING CSS: ../..../../assets/vendor/boxicons/css/boxicons.min.css -> MotzzWebsite-main\\services\\assets\\vendor\\boxicons\\css\\boxicons.min.css",
+    "MISSING CSS: ../..../../assets/vendor/swiper/swiper-bundle.min.css -> MotzzWebsite-main\\services\\assets\\vendor\\swiper\\swiper-bundle.min.css",
+    "MISSING CSS: ../../../assets/css/theme.min.css -> assets\\css\\theme.min.css",
+    "MISSING CSS: ../../../assets/css/site.css -> assets\\css\\site.css",
+    "MISSING JS: ../..../../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js -> MotzzWebsite-main\\services\\assets\\vendor\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+    "MISSING JS: ../..../../assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js -> MotzzWebsite-main\\services\\assets\\vendor\\smooth-scroll\\dist\\smooth-scroll.polyfills.min.js",
+    "MISSING JS: ../..../../assets/vendor/rellax/rellax.min.js -> MotzzWebsite-main\\services\\assets\\vendor\\rellax\\rellax.min.js",
+    "MISSING JS: ../..../../assets/vendor/@lottiefiles/lottie-player/dist/lottie-player.js -> MotzzWebsite-main\\services\\assets\\vendor\\@lottiefiles\\lottie-player\\dist\\lottie-player.js",
+    "MISSING JS: ../..../../assets/vendor/swiper/swiper-bundle.min.js -> MotzzWebsite-main\\services\\assets\\vendor\\swiper\\swiper-bundle.min.js",
+    "MISSING JS: ../..../../assets/js/theme.min.js -> MotzzWebsite-main\\services\\assets\\js\\theme.min.js",
+    "MISSING JS: ../..../../assets/js/include-nav.js -> MotzzWebsite-main\\services\\assets\\js\\include-nav.js",
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js",
+    "MISSING include-nav.js: Required for dynamic header/footer"
+  ],
+  "services\\agriculture\\water.html": [
+    "MISSING CSS: ../..../../assets/vendor/boxicons/css/boxicons.min.css -> MotzzWebsite-main\\services\\assets\\vendor\\boxicons\\css\\boxicons.min.css",
+    "MISSING CSS: ../..../../assets/vendor/swiper/swiper-bundle.min.css -> MotzzWebsite-main\\services\\assets\\vendor\\swiper\\swiper-bundle.min.css",
+    "MISSING CSS: ../../../assets/css/theme.min.css -> assets\\css\\theme.min.css",
+    "MISSING CSS: ../../../assets/css/site.css -> assets\\css\\site.css",
+    "MISSING JS: ../..../../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js -> MotzzWebsite-main\\services\\assets\\vendor\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+    "MISSING JS: ../..../../assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js -> MotzzWebsite-main\\services\\assets\\vendor\\smooth-scroll\\dist\\smooth-scroll.polyfills.min.js",
+    "MISSING JS: ../..../../assets/vendor/rellax/rellax.min.js -> MotzzWebsite-main\\services\\assets\\vendor\\rellax\\rellax.min.js",
+    "MISSING JS: ../..../../assets/vendor/@lottiefiles/lottie-player/dist/lottie-player.js -> MotzzWebsite-main\\services\\assets\\vendor\\@lottiefiles\\lottie-player\\dist\\lottie-player.js",
+    "MISSING JS: ../..../../assets/vendor/swiper/swiper-bundle.min.js -> MotzzWebsite-main\\services\\assets\\vendor\\swiper\\swiper-bundle.min.js",
+    "MISSING JS: ../..../../assets/js/theme.min.js -> MotzzWebsite-main\\services\\assets\\js\\theme.min.js",
+    "MISSING JS: ../..../../assets/js/include-nav.js -> MotzzWebsite-main\\services\\assets\\js\\include-nav.js",
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js",
+    "MISSING include-nav.js: Required for dynamic header/footer"
+  ],
+  "services\\analytical-testing-agriculture.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "services\\analytical-testing-cannabis-hemp.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "services\\analytical-testing-construction-materials.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "services\\analytical-testing-dietary-supplements.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "services\\analytical-testing-environmental.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "services\\analytical-testing-fertilizer.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "services\\analytical-testing-microbiology.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "services\\analytical-testing-neutraceutical-vitamins.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "services\\analytical-testing-research-development.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js",
+    "USES DYNAMIC FOOTER: Requires include-nav.js"
+  ],
+  "subpage-footer.html": [
+    "NO NAVIGATION: Missing header/nav structure",
+    "NO FOOTER: Missing footer structure"
+  ],
+  "subpage-header.html": [
+    "NO FOOTER: Missing footer structure"
+  ],
+  "terms-conditions.html": [
+    "USES DYNAMIC HEADER: Requires include-nav.js"
+  ]
+}
