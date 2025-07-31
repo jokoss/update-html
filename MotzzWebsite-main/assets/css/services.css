@@ -278,6 +278,17 @@
     z-index: 1020;
 }
 
+/* Remove sticky behavior on mobile devices */
+@media (max-width: 767.98px) {
+    #filterSection {
+        position: static !important;
+    }
+    
+    .sticky-top {
+        position: static !important;
+    }
+}
+
 /* Category Filter Buttons - Green Theme */
 .btn-group .btn {
     background-color: #f8f9fa;
